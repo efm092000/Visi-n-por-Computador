@@ -3,8 +3,8 @@
 In this first assignment we have worked on image processing and for that we have used the OpenCV library in Python. As we have already talked about in person, there have some missunderstandings and so both of us, Ilka and I have submited 2 different answers to these exercises.
 
 ## Authors
-[![GitHub](https://img.shields.io/badge/GitHub-Ana%20del%20Carmen%20Santana%20Ojeda-red?style=flat-square&logo=github)](https://github.com/efm092000)
-[![GitHub](https://img.shields.io/badge/GitHub-Pablo%20Santana-blue?style=flat-square&logo=github)](https://github.com/jeski73)
+[![GitHub] Elena's Github](https://github.com/efm092000)
+[![GitHub]Ilka's Github](https://github.com/jeski73)
 
 ## Tecnologies
   -  Python
