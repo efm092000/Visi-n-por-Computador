@@ -1,29 +1,47 @@
 ## Práctica 2. Funciones básicas de OpenCV
 
-### Contenidos
+In this first assignment we have worked on image processing and for that we have used the OpenCV library in Python.
 
-[Aspectos cubiertos](#21-aspectos-cubiertos)  
-[Entrega](#22-entrega)  
+## Authors
+[Elena's Github](https://github.com/efm092000)
 
-### 2.1. Aspectos cubiertos
 
-La práctica precedente abordaba el modo de acceder al valor asociado a un píxel, así como su modificación. Dicha capacidad abre muchísimas posibilidades, existiendo un nutrido grupo de operaciones básicas, estando habitualmente presentes en bibliotecas como la que utilizaremos a lo largo del curso: [OpenCV](https://opencv.org).
+[Ilka's Github](https://github.com/jeski73)
 
-El cuaderno proporcionado para esta práctica (*VC_P2.ipynb*), recuerda en primer término la conversión de formato del espacio de color, tanto la conversión a grises, como a otros espacios de representación, que facilitan determinadas operaciones. Tras repasar el manejo de dichas utilidades, el cuaderno cubre un conjunto de funciones básicas de procesamiento de imágenes disponibles en OpenCV, como son las utilidades ya mencionadas de conversión de espacio de color, añadiendo las de cálculo de bordes o contornos, umbralizado, histogramas, diferencias de fotogramas o sustracción de fondo, etc.
+## Tecnologies
+  -  Python
 
-### 2.2. Entrega
+## Libraries
+  - OpenCV
+  - Matplotlib
+  - NumPy
 
-A lo largo del cuaderno se propone resolver algunas variaciones sobre el código proporcionado. Además de dichas tareas concretas, en la parte final se proponen dos tareas con un objetivo más abierto otorgando mayor libertad en cuanto al resultado a producir:
+## Index
 
-- Desarrollar un demostrador que capture las imágenes de la cámara, y les permita *exhibir* lo aprendido en estas dos primeras prácticas ante quienes no cursen la asignatura de Visión por Computador :) . Es por ello que además de poder mostrar la imagen original de la webcam, sea posible de forma interactiva cambiar de modo, incluyendo al menos dos modos diferentes que muestren el resultado de aplicar funciones de OpenCV trabajadas hasta ahora.
+1. [Canny](#canny)
+2. [Sobel](#sobel)
+3. [3 Frames ](#3-frames)
+4. [Blue boxes](#blue-boxes)
 
-- Por otro lado, plantear una reinterpretación de la parte de procesamiento de la imagen tomando como posible punto de partida alguna de las siguientes instalaciones:
+## Canny
 
-  - [My little piece of privacy](https://www.niklasroy.com/project/88/my-little-piece-of-privacy), por Niklas Roy   
-  - [Messa di voce](https://youtu.be/GfoqiyB1ndE?feature=shared), por Golan Levin y Zachary Lieberman
-  - [Virtual air guitar](https://youtu.be/FIAmyoEpV5c?feature=shared)
+In this exercise we calculatedj the rows that have the 0.95*maximum number of pixels that are white by row. And we have compare this result with the one gotten when calculating the maximum number of white pixels by columns
 
-No olvidar todas las indicaciones dadas en la práctica anterior sobre la entrega: enlace github por medio del campus virtual incluyendo cuaderno(s) resolviendo las tareas y su correspondiente *README*.
+## Sobel
 
-***
-Bajo licencia de Creative Commons Reconocimiento - No Comercial 4.0 Internacional
+The main difference between the Sobel and the Canny, is that the Sobel is an umbralized image. We have calculated the maximun number of white pixels per row and column in this image and compared the results.
+## 3 frames
+
+We decided to show 3 frames to show how much an image changes when the colors. The 1 frame is the original, in 2 frame we have changed the value of rgb.
+
+## Blue Boxes
+
+In this video we decided to follow something similar to what the video "Virtual guitar" "My little piece of privacy" and paint a blue box on top of an object, and if the object were to move, so would the box.
+
+## Bibliografía
+
+1. [W3Schools - Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
+2. [GeeksforGeeks - OpenCV cv2.imshow Method](https://www.geeksforgeeks.org/python-opencv-cv2-imshow-method/)
+3. [GeeksforGeeks - OpenCV cv2.circle Method](https://www.geeksforgeeks.org/python-opencv-cv2-circle-method/)
+4. [OpenCV Documentation - Drawing Functions](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
+5. [OpenCV Documentation - VideoCapture Class](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
