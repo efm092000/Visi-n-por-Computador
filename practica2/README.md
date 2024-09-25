@@ -63,3 +63,4 @@ So, if someone is walking through the camera our little programm adds a blue box
 3. [GeeksforGeeks - OpenCV cv2.circle Method](https://www.geeksforgeeks.org/python-opencv-cv2-circle-method/)
 4. [OpenCV Documentation - Drawing Functions](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
 5. [OpenCV Documentation - VideoCapture Class](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
+6. [learnopencv - OpenCV cv2.findContours Method](https://learnopencv.com/contour-detection-using-opencv-python-c/)
