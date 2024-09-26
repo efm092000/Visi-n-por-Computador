@@ -28,22 +28,27 @@ In this first assignment we have worked on image processing and for that we have
 ## Ajedrez
 
 In this exercise we have to generate the image of a chessboard, for that it is necessary to modify the dimentions of the image, create a single grayscale plane, and iterate over our board, painting the squares black and white.
+![alt text](image.png)
 
 ## Mondrian
 
 We start with a blank image, we position colored squares in certain areas to form the composition. Black lines are also drawn to separate the squares from each other."
+![alt text](image-1.png)
 
 ## Modificar un plano de la imagen
 
 In this exercise, we utilize the webcam to capture live video. We break down each frame into its red, green, and blue channels and apply a transformation to one of them.
+![alt text](image-2.png)
 
 ## Pintar círculos en posiciones de píxeles claros y oscuros
 
 For this one, we use the webcam to search for the brightest and darkest 8x8 areas in each frame based on the sum of the color channel values. Circles are drawn in the brightest area and in the darkest area to highlight these regions in the video.
+![alt text](image-3.png)
 
 ## Crear un efecto Pop Art personalizado
 
 Lastly, we implement a Pop Art effect. The webcam captures the red, green, and blue color channels of each pixel, and we apply different manipulations to separate areas of the image
+![alt text](image-4.png)
 
 ## Conclusión
 
