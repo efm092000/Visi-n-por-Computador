@@ -1,6 +1,7 @@
 ## Práctica 2. Funciones básicas de OpenCV
 
-In this first assignment we have worked on image processing and for that we have used the OpenCV library in Python.
+In the second assignment we have worked on analysing images, we constructed an demonstrater about our learning outcome so far and implemented a new interpretation of image processing.
+To achieve all of this we have used the OpenCV library in Python.
 
 ## Authors
 [Elena's Github](https://github.com/efm092000)
