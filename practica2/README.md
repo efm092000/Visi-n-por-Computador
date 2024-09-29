@@ -137,6 +137,7 @@ We decided to show 3 frames in our demonstrator to show to an external the outco
 
 In this video we were inspired by the video "My little piece of privacy".
 So, if someone is walking through the camera our little programm adds a blue box on top of the moving object such that it is isn't visible any more on the screen.
+Additionally the drawn box fades over time such that you can see the movement's direction.
 
 ## Bibliografía
 
@@ -145,4 +146,5 @@ So, if someone is walking through the camera our little programm adds a blue box
 3. [GeeksforGeeks - OpenCV cv2.circle Method](https://www.geeksforgeeks.org/python-opencv-cv2-circle-method/)
 4. [OpenCV Documentation - Drawing Functions](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
 5. [OpenCV Documentation - VideoCapture Class](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
-6. [learnopencv - OpenCV cv2.findContours Method](https://learnopencv.com/contour-detection-using-opencv-python-c/)
+6. [learnopencv - cv2.findContours Method](https://learnopencv.com/contour-detection-using-opencv-python-c/)
+7. [OpenCV Documentation - cv2.addWeighted Method](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19)
