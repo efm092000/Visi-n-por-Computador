@@ -22,7 +22,7 @@ To achieve all of this we have used the OpenCV library in Python.
 1. [Canny](#canny)
 2. [Sobel](#sobel)
 3. [3 Frames ](#3-frames)
-4. [Blue boxes](#blue-boxes)
+4. [Blue Curtain](#blue-curtain)
 
 ## Canny
 
