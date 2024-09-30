@@ -124,5 +124,3 @@ This project helped solidify our understanding of OpenCV functions, image manipu
 7. [OpenCV Documentation - cv2.addWeighted Method](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19)
 
 ---
-
-This expanded README provides more clarity about each section, with additional descriptions and results from the experiments performed using OpenCV techniques.
