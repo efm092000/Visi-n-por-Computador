@@ -1,150 +1,128 @@
-## Práctica 2. Funciones básicas de OpenCV
+Here's a refined and more detailed version of your README to better present your work and expand on the concepts covered in the project:
 
-In the second assignment we have worked on analysing images, we constructed an demonstrater about our learning outcome so far and implemented a new interpretation of image processing.
-To achieve all of this we have used the OpenCV library in Python.
+---
 
-## Authors
-[Elena's Github](https://github.com/efm092000)
+## **Práctica 2: Funciones Básicas de OpenCV**
 
+In this project, we explored several image processing techniques using the OpenCV library in Python. We implemented edge detection methods such as **Canny** and **Sobel**, compared their results, and developed a demonstrator that showcases these techniques. Additionally, we implemented a reinterpretation of a digital art installation inspired by works like *My Little Piece of Privacy* and *Messa di Voce*, integrating live video processing and visual effects.
 
-[Ilka's Github](https://github.com/jeski73)
+### **Authors**
+- [Elena's GitHub](https://github.com/efm092000)
+- [Ilka's GitHub](https://github.com/jeski73)
 
-## Tecnologies
-  -  Python
+### **Technologies**
+  - Python
 
-## Libraries
+### **Libraries**
   - OpenCV
   - Matplotlib
   - NumPy
 
-## Index
+---
+
+## **Index**
 
 1. [Canny](#canny)
 2. [Sobel](#sobel)
-3. [3 Frames ](#3-frames)
+3. [3 Frames Demonstrator](#3-frames-demonstrator)
 4. [Blue Curtain](#blue-curtain)
+5. [Conclusion](#conclusion)
+6. [Bibliography](#bibliografía)
 
-## Canny
+---
 
-![tarea-1-canny](tarea1.png)
+## **Canny Edge Detection** <a name="canny"></a>
 
-In this exercise we calculated the percentage of white pixels in each row and depicted the results in a chart. 
-Furthermore, we calculated the rows that have the 0.95*maximum number of pixels that are white by row as well as the overall maximum of white pixels in a row. 
-These are marked extra with black triangles in the chart. 
+![Canny Edge Detection](tarea1.png)
 
-We did the same for columns. 
+The **Canny edge detection** technique was used to identify the edges of objects within the image. This method works by:
+1. Applying Gaussian filtering to reduce noise.
+2. Finding the intensity gradient of the image.
+3. Applying non-maximum suppression to filter unwanted pixels.
+4. Using double thresholding to detect potential edges.
 
-Lastly, we compared both results (column/row) to each other.
+### **Analysis**
 
-### results for canny
+For this part of the task, we calculated the percentage of white (255) pixels per row and column. Additionally, we identified rows and columns that have 95% or more of the maximum white pixels and plotted the results:
 
-maximum number of white pixels in a row: 56100
+- **Maximum number of white pixels in a row:** 56,100
+- **Rows with ≥ 95% of the maximum white pixels:**
+  - 12, 100
+- **Maximum number of white pixels in a column:** 47,685
+- **Columns with ≥ 95% of the maximum white pixels:**
+  - 92, 99, 104, 115, 119, 383
 
-rows with 95% white pixels of maxmimum number of white pixels:
-12,
-100
+### **Results**
 
-maximum number of white pixels in a column: 47685
+We visualized the number of white pixels by row and by column, and compared the two metrics. The results demonstrate how **Canny** effectively captures the edges in an image but has differences in pixel distributions compared to **Sobel** (explained next).
 
-columns with 95% white pixels of maxmimum number of white pixels:
-92,
-99,
-104,
-115,
-119,
-383
+---
 
-## Sobel
+## **Sobel Edge Detection** <a name="sobel"></a>
 
-![tarea-2-sobel](tarea2.png)
+![Sobel Edge Detection](tarea2.png)
 
-The main difference between the Sobel and the Canny, is that the Sobel is an umbralized image. 
-Again, we calculated the percentage of white pixels in each row and depicted the results in a chart. 
-Furthermore, we calculated the rows that have the 0.95*maximum number of pixels that are white by row as well as the overall maximum of white pixels in a row. 
-These are marked extra with black triangles in the chart. 
+The **Sobel operator** calculates the first-order derivative of the image in both the horizontal (x) and vertical (y) directions. The combination of these gradients highlights the edges in the image. After detecting the edges, we applied a threshold to convert the result into a binary image.
 
-Of course we did the same for columns again and compared the results.
+### **Analysis**
 
-The results obtained are very different, as one method inverts the black and white compared to the other. However, the results are not inverted, since the images are based on different methods (Canny - edge display - and sobel - generation of an image based on a threshold value).
+Just like with **Canny**, we calculated the percentage of white pixels per row and column for the **Sobel** image, highlighting the rows and columns with at least 95% of the maximum number of white pixels.
 
-### results for sobel
-maximum number of white pixels in a row: 99960
+- **Maximum number of white pixels in a row:** 99,960
+- **Rows with ≥ 95% of the maximum white pixels:**
+  - 449, 450, 451, 452, 453, 454, 457, 458, 464
+- **Maximum number of white pixels in a column:** 94,860
+- **Columns with ≥ 95% of the maximum white pixels:**
+  - 34, 179, 180, 181, 182, 183, 193, 194, 195, 196, 199, 293, 294, 295, and more.
 
-rows with 95% white pixels of maxmimum number of white pixels:
-449,
-450,
-451,
-452,
-453,
-454,
-457,
-458,
-464
+### **Results**
 
-maximum number of white pixels in a column: 94860
+The **Sobel** operator results in a different pixel distribution compared to **Canny**. Though both methods focus on edge detection, **Sobel** detects gradients more continuously, while **Canny** provides sharper, more isolated edges.
 
-columns with 95% white pixels of maxmimum number of white pixels:
-34,
-179,
-180,
-181,
-182,
-183,
-193,
-194,
-195,
-196,
-199,
-293,
-294,
-295,
-296,
-297,
-301,
-302,
-303,
-312,
-313,
-320,
-321,
-322,
-323,
-326,
-327,
-328,
-329,
-330,
-331,
-332,
-333,
-334
+---
 
+## **3 Frames Demonstrator** <a name="3-frames-demonstrator"></a>
 
+![3 Frames Demonstrator](tarea3.png)
 
+We created a video demonstrator that shows three different visual effects in real-time using a webcam:
 
-## 3 frames
+1. **Original Video:** Displays the unaltered video feed.
+2. **Color-Shifted Video:** Alters the RGB values to create an *Andy Warhol*-style artistic effect.
+3. **Background Subtraction:** Uses background subtraction to remove static elements from the video, showing only moving objects.
 
-![tarea-3-frames](tarea3.png)
+### **Results**
 
-We decided to show 3 frames in our demonstrator to show to an external the outcome of our course. 
-- The first frame is the original video.
-- In the second frame we have chosen to depict a 'Andy-Warhole-Art' and changed the value of rgb.
-- For the third frame we decided to demonstrate the background model subtraction.
+This visualization effectively combines basic video manipulation techniques and real-time image processing. The output includes color transformations and background removal, allowing the observer to understand the versatility of OpenCV.
 
-## Blue Curtain
+---
 
-![tarea-4-blueCurtain](tarea4.png)
+## **Blue Curtain (Inspired by "My Little Piece of Privacy")** <a name="blue-curtain"></a>
 
-In this video we were inspired by the video "My little piece of privacy".
-So, if someone is walking through the camera our little programm adds a blue box on top of the moving object such that it is isn't visible any more on the screen.
-Additionally the drawn box fades over time such that you can see the movement's direction.
+![Blue Curtain](tarea4.png)
 
-## Bibliografía
+Inspired by digital art installations like *My Little Piece of Privacy*, we developed a real-time effect where moving objects are obscured by a fading blue box as they pass through the camera's view. The moving object's position is detected via background subtraction, and the blue box gradually fades as the object moves, mimicking the concept of selective privacy and motion-tracking art installations.
+
+---
+
+## **Conclusion** <a name="conclusion"></a>
+
+Through this project, we explored the fundamentals of image processing using OpenCV. The comparison of **Canny** and **Sobel** edge detection techniques allowed us to better understand the differences in edge detection methods. Additionally, the **3 Frames Demonstrator** and **Blue Curtain** demonstrate how real-time video processing can be leveraged for artistic expression and privacy simulations.
+
+This project helped solidify our understanding of OpenCV functions, image manipulation, and real-time processing capabilities.
+
+---
+
+## **Bibliography** <a name="bibliografía"></a>
 
 1. [W3Schools - Color Picker](https://www.w3schools.com/colors/colors_picker.asp)
 2. [GeeksforGeeks - OpenCV cv2.imshow Method](https://www.geeksforgeeks.org/python-opencv-cv2-imshow-method/)
 3. [GeeksforGeeks - OpenCV cv2.circle Method](https://www.geeksforgeeks.org/python-opencv-cv2-circle-method/)
 4. [OpenCV Documentation - Drawing Functions](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
 5. [OpenCV Documentation - VideoCapture Class](https://docs.opencv.org/4.x/da/d6e/tutorial_py_geometric_transformations.html)
-6. [learnopencv - cv2.findContours Method](https://learnopencv.com/contour-detection-using-opencv-python-c/)
+6. [LearnOpenCV - cv2.findContours Method](https://learnopencv.com/contour-detection-using-opencv-python-c/)
 7. [OpenCV Documentation - cv2.addWeighted Method](https://docs.opencv.org/3.4/d2/de8/group__core__array.html#gafafb2513349db3bcff51f54ee5592a19)
+
+---
+
+This expanded README provides more clarity about each section, with additional descriptions and results from the experiments performed using OpenCV techniques.
