@@ -32,21 +32,21 @@ In this exercise we calculated the percentage of white pixels in each row and de
 Furthermore, we calculated the rows that have the 0.95*maximum number of pixels that are white by row as well as the overall maximum of white pixels in a row. 
 These are marked extra with black triangles in the chart. 
 
-We did the same for columns. 
+We did the same for columns and compared both results (column/row) to each other.
 
-Lastly, we compared both results (column/row) to each other.
+We gave the charts the same y-axis such that you can compare the outcomes better as they stand right next to each other.
 
 ### results for canny
 
-maximum number of white pixels in a row: 56100
+- maximum number of white pixels in a row: 56100
 
-rows with 95% white pixels of maxmimum number of white pixels:
+- rows with 95% white pixels of maxmimum number of white pixels:
 12,
 100
 
-maximum number of white pixels in a column: 47685
+- maximum number of white pixels in a column: 47685
 
-columns with 95% white pixels of maxmimum number of white pixels:
+- columns with 95% white pixels of maxmimum number of white pixels:
 92,
 99,
 104,
@@ -65,68 +65,35 @@ These are marked extra with black triangles in the chart.
 
 Of course we did the same for columns again and compared the results.
 
-The results obtained are very different, as one method inverts the black and white compared to the other. However, the results are not inverted, since the images are based on different methods (Canny - edge display - and sobel - generation of an image based on a threshold value).
+Again, we gave the charts the same y-axis such that you can compare the outcomes better as they stand right next to each other.
+
 
 ### results for sobel
-maximum number of white pixels in a row: 99960
+- maximum number of white pixels in a row: 34935
 
-rows with 95% white pixels of maxmimum number of white pixels:
-449,
-450,
-451,
-452,
-453,
-454,
-457,
-458,
-464
+- rows with 95% white pixels of maxmimum number of white pixels:
+3,
+20
 
-maximum number of white pixels in a column: 94860
+- maximum number of white pixels in a column: 41055
 
-columns with 95% white pixels of maxmimum number of white pixels:
-34,
-179,
-180,
-181,
-182,
-183,
-193,
-194,
-195,
-196,
-199,
-293,
-294,
-295,
-296,
-297,
-301,
-302,
-303,
-312,
-313,
-320,
-321,
-322,
-323,
-326,
-327,
-328,
-329,
-330,
-331,
-332,
-333,
-334
+- columns with 95% white pixels of maxmimum number of white pixels:
+288
+
+### Compare Sobel and Canny
 
 
+![compare-sobel-canny](compareSobelCanny.png)
+
+The results obtained show that the umbralization reduces a lot of noise but keeps the important shapes because the percentage of white pixels is lower but the curves stays mostly the same.
 
 
 ## 3 frames
 
 ![tarea-3-frames](tarea3.png)
 
-We decided to show 3 frames in our demonstrator to show to an external the outcome of our course. 
+We decided to show 3 frames in our demonstrator to show to an external the outcome of our course. We flipped both changed frames to underline more their difference to the original.
+
 - The first frame is the original video.
 - In the second frame we have chosen to depict a 'Andy-Warhole-Art' and changed the value of rgb.
 - For the third frame we decided to demonstrate the background model subtraction.
@@ -138,6 +105,10 @@ We decided to show 3 frames in our demonstrator to show to an external the outco
 In this video we were inspired by the video "My little piece of privacy".
 So, if someone is walking through the camera our little programm adds a blue box on top of the moving object such that it is isn't visible any more on the screen.
 Additionally the drawn box fades over time such that you can see the movement's direction.
+
+We used the cv2.findContours method to find boxes around moving objects, ignored small contours and joined the bigger contours to make one big box without whole in between. For the box-fading we created a second image or layer which starts with np.zeros. Each time we calculated the box, it is written onto this layer and the fade out is achieved by multiplying the opaque value of each pixel by 0.9. Then we add this layer to our frame.
+
+
 
 ## Bibliografía
 
