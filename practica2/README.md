@@ -21,94 +21,92 @@ To achieve all of this we have used the OpenCV library in Python.
 
 1. [Canny](#canny)
 2. [Sobel](#sobel)
-3. [3 Frames ](#3-frames)
+3. [3 Frames Demonstrator](#3-frames-demonstrator)
 4. [Blue Curtain](#blue-curtain)
+5. [Conclusion](#conclusion)
+6. [Bibliography](#bibliography)
 
 ## Canny
 
 ![tarea-1-canny](tarea1.png)
 
-In this exercise we calculated the percentage of white pixels in each row and depicted the results in a chart. 
-Furthermore, we calculated the rows that have the 0.95*maximum number of pixels that are white by row as well as the overall maximum of white pixels in a row. 
-These are marked extra with black triangles in the chart. 
+The **Canny edge detection** technique was used to identify the edges of objects within the image. This method works by:
 
-We did the same for columns and compared both results (column/row) to each other.
+  1. Applying Gaussian filtering to reduce noise.
+  2. Finding the intensity gradient of the image.
+  3. Applying non-maximum suppression to filter unwanted pixels.
+  4. Using double thresholding to detect potential edges.
 
 We gave the charts the same y-axis such that you can compare the outcomes better as they stand right next to each other.
 
-### results for canny
+### Analysis
 
-- maximum number of white pixels in a row: 56100
+For this part of the task, we calculated the percentage of white (255) pixels per row and column. Additionally, we identified rows and columns that have 95% or more of the maximum white pixels and plotted the results:
 
-- rows with 95% white pixels of maxmimum number of white pixels:
-12,
-100
+  - **Maximum number of white pixels in a row:** 56,100
+  - **Rows with ≥ 95% of the maximum white pixels:**
+    - 12, 100
+  - **Maximum number of white pixels in a column:** 47,685
+  - **Columns with ≥ 95% of the maximum white pixels:**
+    - 92, 99, 104, 115, 119, 383
 
-- maximum number of white pixels in a column: 47685
-
-- columns with 95% white pixels of maxmimum number of white pixels:
-92,
-99,
-104,
-115,
-119,
-383
 
 ## Sobel
 
 ![tarea-2-sobel](tarea2.png)
 
-The main difference between the Sobel and the Canny, is that the Sobel is an umbralized image. 
-Again, we calculated the percentage of white pixels in each row and depicted the results in a chart. 
-Furthermore, we calculated the rows that have the 0.95*maximum number of pixels that are white by row as well as the overall maximum of white pixels in a row. 
-These are marked extra with black triangles in the chart. 
-
-Of course we did the same for columns again and compared the results.
+The **Sobel operator** calculates the first-order derivative of the image in both the horizontal (x) and vertical (y) directions. The combination of these gradients highlights the edges in the image. After detecting the edges, we applied a threshold to convert the result into a binary image.
 
 Again, we gave the charts the same y-axis such that you can compare the outcomes better as they stand right next to each other.
 
+### Analysis
 
-### results for sobel
-- maximum number of white pixels in a row: 34935
+Just like with **Canny**, we calculated the percentage of white pixels per row and column for the **Sobel** image, highlighting the rows and columns with at least 95% of the maximum number of white pixels.
 
-- rows with 95% white pixels of maxmimum number of white pixels:
-3,
-20
+  - **Maximum number of white pixels in a row:** 34,935
+  - **Rows with ≥ 95% of the maximum white pixels:**
+    - 3, 20
+  - **Maximum number of white pixels in a column:** 41,055
+  - **Columns with ≥ 95% of the maximum white pixels:**
+    - 288
 
-- maximum number of white pixels in a column: 41055
 
-- columns with 95% white pixels of maxmimum number of white pixels:
-288
 
 ### Compare Sobel and Canny
 
 
 ![compare-sobel-canny](compareSobelCanny.png)
 
-The results obtained show that the umbralization reduces a lot of noise but keeps the important shapes because the percentage of white pixels is lower but the curves stays mostly the same.
+The Sobel operator results in a different pixel distribution compared to Canny. Though both methods focus on edge detection, Sobel detects gradients more continuously, while Canny provides sharper, more isolated edges. This can be seen in their comparison. It shows that the umbralization reduces a lot of noise but keeps the important shapes because the percentage of white pixels is lower but the curves stays mostly the same.
 
 
-## 3 frames
+## 3 Frames Demonstrator
 
 ![tarea-3-frames](tarea3.png)
 
-We decided to show 3 frames in our demonstrator to show to an external the outcome of our course. We flipped both changed frames to underline more their difference to the original.
+We created a video demonstrator that shows three different visual effects in real-time using a webcam:
 
-- The first frame is the original video.
-- In the second frame we have chosen to depict a 'Andy-Warhole-Art' and changed the value of rgb.
-- For the third frame we decided to demonstrate the background model subtraction.
+1. **Original Video:** Displays the unaltered video feed.
+2. **Color-Shifted Video:** Alters the RGB values to create an Andy Warhol-style artistic effect.
+3. **Background Subtraction:** Uses background subtraction to remove static elements from the video, showing only moving objects.
+
+### Results
+This visualization effectively combines basic video manipulation techniques and real-time image processing. The output includes color transformations and background removal, allowing the observer to understand the versatility of OpenCV.
 
 ## Blue Curtain
 
 ![tarea-4-blueCurtain](tarea4.png)
 
-In this video we were inspired by the video "My little piece of privacy".
-So, if someone is walking through the camera our little programm adds a blue box on top of the moving object such that it is isn't visible any more on the screen.
-Additionally the drawn box fades over time such that you can see the movement's direction.
+Inspired by digital art installations like My Little Piece of Privacy, we developed a real-time effect where moving objects are obscured by a fading blue box as they pass through the camera's view. The moving object's position is detected via background subtraction, and the blue box gradually fades as the object moves, mimicking the concept of selective privacy and motion-tracking art installations.
 
 We used the cv2.findContours method to find boxes around moving objects, ignored small contours and joined the bigger contours to make one big box without whole in between. For the box-fading we created a second image or layer which starts with np.zeros. Each time we calculated the box, it is written onto this layer and the fade out is achieved by multiplying the opaque value of each pixel by 0.9. Then we add this layer to our frame.
 
 
+## Conclusion
+
+Through this project, we explored the fundamentals of image processing using OpenCV. The comparison of **Canny** and **Sobel** edge detection techniques allowed us to better understand the differences in edge detection methods. Additionally, the **3 Frames Demonstrator** and **Blue Curtain** demonstrate how real-time video processing can be leveraged for artistic expression and privacy simulations.
+
+This project helped solidify our understanding of OpenCV functions, image manipulation, and real-time processing capabilities.
 
 ## Bibliografía
 
