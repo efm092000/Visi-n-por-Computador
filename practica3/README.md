@@ -22,6 +22,8 @@ The objective of this practice is to develop a computer vision system that can d
 
 1. [Task 1](#task-1)  
 2. [Task 2](#task-2)
+3. [Conclusion](#conclusion)
+4. [Bibliography](#bibliography)
 
 
 ## TASK 1
