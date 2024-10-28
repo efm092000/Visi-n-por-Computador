@@ -1,4 +1,4 @@
-path: /home/jeski/uni/master/1-semester/vc/Visi-n-por-Computador/practica4/datasets/selfmade/labelsJson/YOLODataset
+path: /home/jeski/uni/master/1-semester/vc/Visi-n-por-Computador/practica4/datasets/selfmadeYOLO/
 train: images/train
 val: images/val
 test:
