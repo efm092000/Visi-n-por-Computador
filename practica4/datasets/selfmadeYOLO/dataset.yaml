@@ -1,7 +1,9 @@
-path: /home/jeski/uni/master/1-semester/vc/Visi-n-por-Computador/practica4/datasets/selfmadeYOLO/
+path: /home/jeski/sem/vc/Visi-n-por-Computador/practica4/datasets/selfmadeYOLO
 train: images/train
 val: images/val
 test:
+
+nc: 1
 
 names:
     0: license plate
