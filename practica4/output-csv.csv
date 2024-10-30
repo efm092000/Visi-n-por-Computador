@@ -1,0 +1,1249 @@
+frame,object_type,confidence,tracking_id,x1,y1,x2,y2,license_plate,mx1,my1,mx2,my2,license_plate_text
+1.0,car,tensor([0.9011]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+1.0,car,tensor([0.8328]),"tensor([2], dtype=torch.int32)",304,169,374,220,False,0,0,0,0,
+1.0,car,tensor([0.8269]),"tensor([3], dtype=torch.int32)",458,155,660,259,False,0,0,0,0,
+1.0,car,tensor([0.7451]),"tensor([4], dtype=torch.int32)",133,162,162,188,False,0,0,0,0,
+1.0,car,tensor([0.6802]),"tensor([5], dtype=torch.int32)",252,171,291,203,False,0,0,0,0,
+1.0,car,tensor([0.6643]),"tensor([6], dtype=torch.int32)",225,167,263,197,False,0,0,0,0,
+1.0,license plate,tensor([0.4493]),-1,429,209,452,215,True,429,209,452,215,not detected
+1.0,license plate,tensor([0.1377]),-1,429,206,443,212,True,429,206,443,212,not detected
+1.0,license plate,tensor([0.1208]),-1,617,222,652,233,True,617,222,652,233,not detected
+2.0,car,tensor([0.9009]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+2.0,car,tensor([0.8378]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+2.0,car,tensor([0.8341]),"tensor([3], dtype=torch.int32)",303,169,375,220,False,0,0,0,0,
+2.0,car,tensor([0.7432]),"tensor([4], dtype=torch.int32)",133,162,163,188,False,0,0,0,0,
+2.0,car,tensor([0.6964]),"tensor([5], dtype=torch.int32)",252,171,291,203,False,0,0,0,0,
+2.0,car,tensor([0.6623]),"tensor([6], dtype=torch.int32)",225,166,263,197,False,0,0,0,0,
+2.0,license plate,tensor([0.4330]),-1,429,209,452,215,True,429,209,452,215,not detected
+2.0,license plate,tensor([0.1342]),-1,429,206,443,211,True,429,206,443,211,7)!
+2.0,license plate,tensor([0.1203]),-1,618,222,652,233,True,618,222,652,233,not detected
+3.0,car,tensor([0.9016]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+3.0,car,tensor([0.8440]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+3.0,car,tensor([0.8279]),"tensor([3], dtype=torch.int32)",301,169,374,220,False,0,0,0,0,
+3.0,car,tensor([0.7474]),"tensor([4], dtype=torch.int32)",133,162,162,188,False,0,0,0,0,
+3.0,car,tensor([0.7024]),"tensor([5], dtype=torch.int32)",252,171,291,203,False,0,0,0,0,
+3.0,car,tensor([0.6544]),"tensor([6], dtype=torch.int32)",225,167,263,197,False,0,0,0,0,
+3.0,license plate,tensor([0.3985]),-1,429,209,452,214,True,429,209,452,214,ne
+3.0,license plate,tensor([0.1307]),-1,429,206,443,211,True,429,206,443,211,7S
+3.0,license plate,tensor([0.1209]),-1,618,222,652,233,True,618,222,652,233,not detected
+4.0,car,tensor([0.9026]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+4.0,car,tensor([0.8436]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+4.0,car,tensor([0.8302]),"tensor([3], dtype=torch.int32)",301,169,374,219,False,0,0,0,0,
+4.0,car,tensor([0.7491]),"tensor([4], dtype=torch.int32)",133,163,162,188,False,0,0,0,0,
+4.0,car,tensor([0.7066]),"tensor([5], dtype=torch.int32)",252,171,291,203,False,0,0,0,0,
+4.0,car,tensor([0.6547]),"tensor([6], dtype=torch.int32)",225,166,263,197,False,0,0,0,0,
+4.0,license plate,tensor([0.4098]),-1,429,209,452,215,True,429,209,452,215,not detected
+4.0,license plate,tensor([0.1317]),-1,429,206,443,211,True,429,206,443,211,not detected
+4.0,license plate,tensor([0.1278]),-1,618,222,652,233,True,618,222,652,233,not detected
+5.0,car,tensor([0.9027]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+5.0,car,tensor([0.8545]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+5.0,car,tensor([0.8312]),"tensor([3], dtype=torch.int32)",301,170,374,219,False,0,0,0,0,
+5.0,car,tensor([0.7414]),"tensor([4], dtype=torch.int32)",133,162,162,188,False,0,0,0,0,
+5.0,car,tensor([0.7125]),"tensor([5], dtype=torch.int32)",252,171,291,203,False,0,0,0,0,
+5.0,car,tensor([0.6582]),"tensor([6], dtype=torch.int32)",225,166,264,197,False,0,0,0,0,
+5.0,license plate,tensor([0.3879]),-1,429,209,452,215,True,429,209,452,215,not detected
+5.0,license plate,tensor([0.1513]),-1,617,222,652,233,True,617,222,652,233,not detected
+5.0,license plate,tensor([0.1263]),-1,429,206,443,211,True,429,206,443,211,not detected
+6.0,car,tensor([0.9033]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+6.0,car,tensor([0.8580]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+6.0,car,tensor([0.8344]),"tensor([3], dtype=torch.int32)",301,170,374,219,False,0,0,0,0,
+6.0,car,tensor([0.7442]),"tensor([4], dtype=torch.int32)",133,163,162,188,False,0,0,0,0,
+6.0,car,tensor([0.7088]),"tensor([5], dtype=torch.int32)",252,170,291,203,False,0,0,0,0,
+6.0,car,tensor([0.6622]),"tensor([6], dtype=torch.int32)",225,166,263,197,False,0,0,0,0,
+6.0,license plate,tensor([0.3948]),-1,429,209,452,214,True,429,209,452,214,a
+6.0,license plate,tensor([0.1648]),-1,618,222,653,233,True,618,222,653,233,not detected
+6.0,license plate,tensor([0.1357]),-1,429,206,443,211,True,429,206,443,211,", YS"
+7.0,car,tensor([0.9024]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+7.0,car,tensor([0.8558]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+7.0,car,tensor([0.8413]),"tensor([3], dtype=torch.int32)",301,170,374,219,False,0,0,0,0,
+7.0,car,tensor([0.7390]),"tensor([4], dtype=torch.int32)",133,163,162,188,False,0,0,0,0,
+7.0,car,tensor([0.7268]),"tensor([5], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+7.0,car,tensor([0.6885]),"tensor([6], dtype=torch.int32)",225,166,264,197,False,0,0,0,0,
+7.0,license plate,tensor([0.3885]),-1,429,209,452,215,True,429,209,452,215,not detected
+7.0,license plate,tensor([0.1422]),-1,618,222,653,233,True,618,222,653,233,not detected
+7.0,license plate,tensor([0.1292]),-1,429,205,443,211,True,429,205,443,211,Zat
+8.0,car,tensor([0.9044]),"tensor([1], dtype=torch.int32)",364,168,462,230,False,0,0,0,0,
+8.0,car,tensor([0.8604]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+8.0,car,tensor([0.8387]),"tensor([3], dtype=torch.int32)",301,169,374,219,False,0,0,0,0,
+8.0,car,tensor([0.7437]),"tensor([4], dtype=torch.int32)",252,170,291,203,False,0,0,0,0,
+8.0,car,tensor([0.7290]),"tensor([5], dtype=torch.int32)",133,164,161,189,False,0,0,0,0,
+8.0,car,tensor([0.6767]),"tensor([6], dtype=torch.int32)",225,165,264,197,False,0,0,0,0,
+8.0,license plate,tensor([0.4292]),-1,429,209,452,215,True,429,209,452,215,not detected
+8.0,license plate,tensor([0.1524]),-1,618,222,652,233,True,618,222,652,233,not detected
+8.0,license plate,tensor([0.1405]),-1,429,205,443,211,True,429,205,443,211,Zat
+9.0,car,tensor([0.9021]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+9.0,car,tensor([0.8561]),"tensor([2], dtype=torch.int32)",459,156,660,257,False,0,0,0,0,
+9.0,car,tensor([0.8509]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+9.0,car,tensor([0.7383]),"tensor([4], dtype=torch.int32)",253,170,290,203,False,0,0,0,0,
+9.0,car,tensor([0.6985]),"tensor([5], dtype=torch.int32)",225,164,264,196,False,0,0,0,0,
+9.0,car,tensor([0.6802]),"tensor([6], dtype=torch.int32)",133,164,161,188,False,0,0,0,0,
+9.0,license plate,tensor([0.4096]),-1,429,209,452,214,True,429,209,452,214,not detected
+9.0,license plate,tensor([0.1644]),-1,618,222,653,233,True,618,222,653,233,not detected
+9.0,license plate,tensor([0.1434]),-1,429,205,443,211,True,429,205,443,211,| > ie
+10.0,car,tensor([0.9022]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+10.0,car,tensor([0.8538]),"tensor([2], dtype=torch.int32)",459,156,660,257,False,0,0,0,0,
+10.0,car,tensor([0.8525]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+10.0,car,tensor([0.7502]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+10.0,car,tensor([0.7119]),"tensor([5], dtype=torch.int32)",225,164,264,196,False,0,0,0,0,
+10.0,car,tensor([0.6643]),"tensor([6], dtype=torch.int32)",133,164,161,189,False,0,0,0,0,
+10.0,license plate,tensor([0.4243]),-1,429,209,452,214,True,429,209,452,214,not detected
+10.0,license plate,tensor([0.1728]),-1,618,222,653,233,True,618,222,653,233,not detected
+10.0,license plate,tensor([0.1430]),-1,429,205,443,211,True,429,205,443,211,| > ie
+11.0,car,tensor([0.9006]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+11.0,car,tensor([0.8578]),"tensor([2], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+11.0,car,tensor([0.8502]),"tensor([3], dtype=torch.int32)",459,156,660,257,False,0,0,0,0,
+11.0,car,tensor([0.7371]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+11.0,car,tensor([0.7093]),"tensor([5], dtype=torch.int32)",225,164,263,196,False,0,0,0,0,
+11.0,car,tensor([0.6250]),"tensor([6], dtype=torch.int32)",133,164,161,189,False,0,0,0,0,
+11.0,license plate,tensor([0.4085]),-1,429,209,452,214,True,429,209,452,214,not detected
+11.0,license plate,tensor([0.2326]),-1,617,222,652,233,True,617,222,652,233,not detected
+11.0,license plate,tensor([0.1498]),-1,429,205,443,211,True,429,205,443,211,| > ie
+12.0,car,tensor([0.9013]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+12.0,car,tensor([0.8606]),"tensor([2], dtype=torch.int32)",459,156,660,257,False,0,0,0,0,
+12.0,car,tensor([0.8555]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+12.0,car,tensor([0.7347]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+12.0,car,tensor([0.7177]),"tensor([5], dtype=torch.int32)",225,164,263,196,False,0,0,0,0,
+12.0,license plate,tensor([0.4151]),-1,429,209,453,214,True,429,209,453,214,i
+12.0,license plate,tensor([0.2123]),-1,618,222,652,233,True,618,222,652,233,en
+12.0,license plate,tensor([0.1643]),-1,429,205,443,211,True,429,205,443,211,| > ie
+13.0,car,tensor([0.8986]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+13.0,car,tensor([0.8649]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+13.0,car,tensor([0.8610]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+13.0,car,tensor([0.7351]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+13.0,car,tensor([0.7176]),"tensor([5], dtype=torch.int32)",225,164,263,196,False,0,0,0,0,
+13.0,car,tensor([0.6239]),"tensor([6], dtype=torch.int32)",134,164,162,189,False,0,0,0,0,
+13.0,license plate,tensor([0.4111]),-1,429,209,452,214,True,429,209,452,214,not detected
+13.0,license plate,tensor([0.2419]),-1,618,222,652,233,True,618,222,652,233,not detected
+13.0,license plate,tensor([0.1615]),-1,429,205,443,211,True,429,205,443,211,wre
+14.0,car,tensor([0.8995]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+14.0,car,tensor([0.8608]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+14.0,car,tensor([0.8567]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+14.0,car,tensor([0.7362]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+14.0,car,tensor([0.7335]),"tensor([5], dtype=torch.int32)",225,163,263,196,False,0,0,0,0,
+14.0,license plate,tensor([0.4354]),-1,429,209,452,214,True,429,209,452,214,not detected
+14.0,license plate,tensor([0.1858]),-1,618,222,652,233,True,618,222,652,233,re -
+14.0,license plate,tensor([0.1698]),-1,429,205,443,211,True,429,205,443,211,wre
+15.0,car,tensor([0.9016]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+15.0,car,tensor([0.8682]),"tensor([2], dtype=torch.int32)",459,155,660,257,False,0,0,0,0,
+15.0,car,tensor([0.8564]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+15.0,car,tensor([0.7386]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+15.0,car,tensor([0.7343]),"tensor([5], dtype=torch.int32)",225,163,263,196,False,0,0,0,0,
+15.0,car,tensor([0.6008]),"tensor([6], dtype=torch.int32)",133,164,162,189,False,0,0,0,0,
+15.0,license plate,tensor([0.4541]),-1,429,209,453,214,True,429,209,453,214,ee
+15.0,license plate,tensor([0.2360]),-1,618,222,653,233,True,618,222,653,233,Ss
+15.0,license plate,tensor([0.1701]),-1,429,205,443,212,True,429,205,443,212,rE
+16.0,car,tensor([0.9014]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+16.0,car,tensor([0.8748]),"tensor([2], dtype=torch.int32)",459,155,660,258,False,0,0,0,0,
+16.0,car,tensor([0.8522]),"tensor([3], dtype=torch.int32)",302,169,374,219,False,0,0,0,0,
+16.0,car,tensor([0.7388]),"tensor([4], dtype=torch.int32)",253,170,291,203,False,0,0,0,0,
+16.0,car,tensor([0.7370]),"tensor([5], dtype=torch.int32)",225,163,263,196,False,0,0,0,0,
+16.0,car,tensor([0.6210]),"tensor([6], dtype=torch.int32)",133,164,162,189,False,0,0,0,0,
+16.0,license plate,tensor([0.4687]),-1,429,209,453,214,True,429,209,453,214,ee
+16.0,license plate,tensor([0.2876]),-1,618,222,652,233,True,618,222,652,233,not detected
+16.0,license plate,tensor([0.1709]),-1,429,205,443,212,True,429,205,443,212,rE
+17.0,car,tensor([0.9003]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+17.0,car,tensor([0.8698]),"tensor([2], dtype=torch.int32)",459,155,661,258,False,0,0,0,0,
+17.0,car,tensor([0.8561]),"tensor([3], dtype=torch.int32)",304,168,374,219,False,0,0,0,0,
+17.0,car,tensor([0.7407]),"tensor([4], dtype=torch.int32)",225,162,263,196,False,0,0,0,0,
+17.0,car,tensor([0.7385]),"tensor([5], dtype=torch.int32)",253,170,291,202,False,0,0,0,0,
+17.0,car,tensor([0.6357]),"tensor([6], dtype=torch.int32)",133,163,162,189,False,0,0,0,0,
+17.0,license plate,tensor([0.4546]),-1,429,209,453,214,True,429,209,453,214,ee
+17.0,license plate,tensor([0.2931]),-1,618,223,652,233,True,618,223,652,233,y me .-
+17.0,license plate,tensor([0.1697]),-1,429,205,443,212,True,429,205,443,212,rE
+18.0,car,tensor([0.9011]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+18.0,car,tensor([0.8789]),"tensor([2], dtype=torch.int32)",459,155,661,258,False,0,0,0,0,
+18.0,car,tensor([0.8582]),"tensor([3], dtype=torch.int32)",303,169,374,218,False,0,0,0,0,
+18.0,car,tensor([0.7648]),"tensor([4], dtype=torch.int32)",254,169,291,202,False,0,0,0,0,
+18.0,car,tensor([0.7534]),"tensor([5], dtype=torch.int32)",225,162,263,196,False,0,0,0,0,
+18.0,car,tensor([0.6286]),"tensor([6], dtype=torch.int32)",133,163,162,189,False,0,0,0,0,
+18.0,license plate,tensor([0.4390]),-1,429,209,453,214,True,429,209,453,214,ee
+18.0,license plate,tensor([0.2459]),-1,617,223,652,234,True,617,223,652,234,not detected
+18.0,license plate,tensor([0.1588]),-1,429,205,443,212,True,429,205,443,212,rE
+19.0,car,tensor([0.8993]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+19.0,car,tensor([0.8824]),"tensor([2], dtype=torch.int32)",459,155,661,258,False,0,0,0,0,
+19.0,car,tensor([0.8620]),"tensor([3], dtype=torch.int32)",305,168,376,220,False,0,0,0,0,
+19.0,car,tensor([0.7574]),"tensor([4], dtype=torch.int32)",254,169,291,202,False,0,0,0,0,
+19.0,car,tensor([0.7477]),"tensor([5], dtype=torch.int32)",225,162,263,196,False,0,0,0,0,
+19.0,car,tensor([0.6057]),"tensor([6], dtype=torch.int32)",134,163,163,190,False,0,0,0,0,
+19.0,license plate,tensor([0.4469]),-1,429,209,453,214,True,429,209,453,214,ee
+19.0,license plate,tensor([0.2332]),-1,618,223,652,234,True,618,223,652,234,not detected
+19.0,license plate,tensor([0.1611]),-1,429,205,443,212,True,429,205,443,212,rE
+20.0,car,tensor([0.8982]),"tensor([1], dtype=torch.int32)",364,168,462,229,False,0,0,0,0,
+20.0,car,tensor([0.8747]),"tensor([2], dtype=torch.int32)",459,156,660,258,False,0,0,0,0,
+20.0,car,tensor([0.8625]),"tensor([3], dtype=torch.int32)",305,168,376,219,False,0,0,0,0,
+20.0,car,tensor([0.7553]),"tensor([4], dtype=torch.int32)",225,163,263,196,False,0,0,0,0,
+20.0,car,tensor([0.7350]),"tensor([5], dtype=torch.int32)",254,169,291,202,False,0,0,0,0,
+20.0,license plate,tensor([0.4519]),-1,430,209,453,214,True,430,209,453,214,i> nee
+20.0,license plate,tensor([0.2828]),-1,618,223,652,234,True,618,223,652,234,ae
+20.0,license plate,tensor([0.1527]),-1,429,205,444,212,True,429,205,444,212,i’ 2
+21.0,car,tensor([0.8986]),"tensor([1], dtype=torch.int32)",365,168,463,229,False,0,0,0,0,
+21.0,car,tensor([0.8834]),"tensor([2], dtype=torch.int32)",305,168,376,220,False,0,0,0,0,
+21.0,car,tensor([0.8675]),"tensor([3], dtype=torch.int32)",459,156,660,258,False,0,0,0,0,
+21.0,car,tensor([0.7486]),"tensor([4], dtype=torch.int32)",225,162,263,196,False,0,0,0,0,
+21.0,car,tensor([0.7268]),"tensor([5], dtype=torch.int32)",254,169,291,202,False,0,0,0,0,
+21.0,license plate,tensor([0.4199]),-1,430,209,453,214,True,430,209,453,214,not detected
+21.0,license plate,tensor([0.2726]),-1,617,223,651,234,True,617,223,651,234,an
+21.0,license plate,tensor([0.1470]),-1,429,205,444,212,True,429,205,444,212,i -
+22.0,car,tensor([0.8965]),"tensor([1], dtype=torch.int32)",365,167,462,229,False,0,0,0,0,
+22.0,car,tensor([0.8868]),"tensor([2], dtype=torch.int32)",305,168,376,220,False,0,0,0,0,
+22.0,car,tensor([0.8566]),"tensor([3], dtype=torch.int32)",458,156,660,259,False,0,0,0,0,
+22.0,car,tensor([0.7554]),"tensor([4], dtype=torch.int32)",225,162,264,196,False,0,0,0,0,
+22.0,car,tensor([0.7278]),"tensor([5], dtype=torch.int32)",254,169,291,202,False,0,0,0,0,
+22.0,license plate,tensor([0.4114]),-1,430,209,453,214,True,430,209,453,214,not detected
+22.0,license plate,tensor([0.3164]),-1,617,223,652,234,True,617,223,652,234,i
+22.0,license plate,tensor([0.1380]),-1,429,205,444,211,True,429,205,444,211,Li a
+23.0,car,tensor([0.8947]),"tensor([1], dtype=torch.int32)",365,168,462,229,False,0,0,0,0,
+23.0,car,tensor([0.8879]),"tensor([2], dtype=torch.int32)",305,168,376,220,False,0,0,0,0,
+23.0,car,tensor([0.8594]),"tensor([3], dtype=torch.int32)",458,156,660,259,False,0,0,0,0,
+23.0,car,tensor([0.7618]),"tensor([4], dtype=torch.int32)",225,161,264,196,False,0,0,0,0,
+23.0,car,tensor([0.7270]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+23.0,license plate,tensor([0.4327]),-1,430,209,454,215,True,430,209,454,215,ee
+23.0,license plate,tensor([0.3285]),-1,618,223,653,235,True,618,223,653,235,an
+23.0,license plate,tensor([0.1365]),-1,430,205,444,212,True,430,205,444,212,LE
+24.0,car,tensor([0.8975]),"tensor([1], dtype=torch.int32)",365,167,462,229,False,0,0,0,0,
+24.0,car,tensor([0.8945]),"tensor([2], dtype=torch.int32)",305,168,376,220,False,0,0,0,0,
+24.0,car,tensor([0.8564]),"tensor([3], dtype=torch.int32)",458,156,660,259,False,0,0,0,0,
+24.0,car,tensor([0.7652]),"tensor([4], dtype=torch.int32)",225,161,264,196,False,0,0,0,0,
+24.0,car,tensor([0.7312]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+24.0,license plate,tensor([0.4122]),-1,431,209,454,214,True,431,209,454,214,oe
+24.0,license plate,tensor([0.3121]),-1,618,223,653,234,True,618,223,653,234,not detected
+24.0,license plate,tensor([0.1316]),-1,430,205,444,211,True,430,205,444,211,» pome
+25.0,car,tensor([0.8973]),"tensor([1], dtype=torch.int32)",365,167,462,229,False,0,0,0,0,
+25.0,car,tensor([0.8914]),"tensor([2], dtype=torch.int32)",305,168,376,220,False,0,0,0,0,
+25.0,car,tensor([0.8620]),"tensor([3], dtype=torch.int32)",458,156,660,259,False,0,0,0,0,
+25.0,car,tensor([0.7741]),"tensor([4], dtype=torch.int32)",225,161,264,196,False,0,0,0,0,
+25.0,car,tensor([0.7266]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+25.0,license plate,tensor([0.3766]),-1,431,209,454,214,True,431,209,454,214,oe
+25.0,license plate,tensor([0.3740]),-1,618,223,653,235,True,618,223,653,235,inate
+25.0,license plate,tensor([0.1284]),-1,430,205,444,211,True,430,205,444,211,» pome
+26.0,car,tensor([0.8976]),"tensor([1], dtype=torch.int32)",365,167,462,229,False,0,0,0,0,
+26.0,car,tensor([0.8777]),"tensor([2], dtype=torch.int32)",306,168,376,219,False,0,0,0,0,
+26.0,car,tensor([0.8594]),"tensor([3], dtype=torch.int32)",458,156,660,259,False,0,0,0,0,
+26.0,car,tensor([0.7711]),"tensor([4], dtype=torch.int32)",225,161,264,196,False,0,0,0,0,
+26.0,car,tensor([0.7200]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+26.0,license plate,tensor([0.3720]),-1,431,209,454,214,True,431,209,454,214,not detected
+26.0,license plate,tensor([0.2759]),-1,618,223,653,235,True,618,223,653,235,— — i
+26.0,license plate,tensor([0.1256]),-1,430,205,444,212,True,430,205,444,212,not detected
+27.0,car,tensor([0.8988]),"tensor([1], dtype=torch.int32)",365,167,463,229,False,0,0,0,0,
+27.0,car,tensor([0.8723]),"tensor([2], dtype=torch.int32)",458,156,661,259,False,0,0,0,0,
+27.0,car,tensor([0.8628]),"tensor([3], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+27.0,car,tensor([0.7838]),"tensor([4], dtype=torch.int32)",225,161,264,196,False,0,0,0,0,
+27.0,car,tensor([0.7213]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+27.0,license plate,tensor([0.3388]),-1,432,209,455,215,True,432,209,455,215,> sca
+27.0,license plate,tensor([0.2456]),-1,618,223,653,235,True,618,223,653,235,not detected
+27.0,license plate,tensor([0.1185]),-1,430,205,444,212,True,430,205,444,212,» ie
+28.0,car,tensor([0.8997]),"tensor([1], dtype=torch.int32)",365,167,463,229,False,0,0,0,0,
+28.0,car,tensor([0.8618]),"tensor([2], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+28.0,car,tensor([0.8584]),"tensor([3], dtype=torch.int32)",458,156,661,259,False,0,0,0,0,
+28.0,car,tensor([0.7919]),"tensor([4], dtype=torch.int32)",225,161,264,196,False,0,0,0,0,
+28.0,car,tensor([0.7222]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+28.0,license plate,tensor([0.3458]),-1,616,225,650,235,True,616,225,650,235,a
+28.0,license plate,tensor([0.2607]),-1,432,209,455,215,True,432,209,455,215,not detected
+28.0,license plate,tensor([0.1166]),-1,618,225,634,233,True,618,225,634,233,a
+28.0,license plate,tensor([0.1070]),-1,430,205,443,212,True,430,205,443,212,not detected
+29.0,car,tensor([0.9001]),"tensor([1], dtype=torch.int32)",365,167,463,229,False,0,0,0,0,
+29.0,car,tensor([0.8624]),"tensor([2], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+29.0,car,tensor([0.8549]),"tensor([3], dtype=torch.int32)",459,156,661,259,False,0,0,0,0,
+29.0,car,tensor([0.7829]),"tensor([4], dtype=torch.int32)",226,161,264,196,False,0,0,0,0,
+29.0,car,tensor([0.7097]),"tensor([5], dtype=torch.int32)",254,169,292,202,False,0,0,0,0,
+29.0,license plate,tensor([0.3269]),-1,617,225,650,235,True,617,225,650,235,Pea
+29.0,license plate,tensor([0.2339]),-1,432,209,455,215,True,432,209,455,215,=o
+29.0,license plate,tensor([0.1120]),-1,618,225,634,233,True,618,225,634,233,a
+29.0,license plate,tensor([0.1051]),-1,430,205,443,211,True,430,205,443,211,not detected
+30.0,car,tensor([0.8982]),"tensor([1], dtype=torch.int32)",365,168,463,229,False,0,0,0,0,
+30.0,car,tensor([0.8608]),"tensor([2], dtype=torch.int32)",459,156,661,259,False,0,0,0,0,
+30.0,car,tensor([0.8578]),"tensor([3], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+30.0,car,tensor([0.7745]),"tensor([4], dtype=torch.int32)",226,161,265,196,False,0,0,0,0,
+30.0,car,tensor([0.6786]),"tensor([5], dtype=torch.int32)",255,169,292,202,False,0,0,0,0,
+30.0,license plate,tensor([0.3094]),-1,616,226,648,235,True,616,226,648,235,ae
+30.0,license plate,tensor([0.2319]),-1,433,209,456,215,True,433,209,456,215,> ee
+30.0,license plate,tensor([0.1042]),-1,617,226,633,233,True,617,226,633,233,ae
+31.0,car,tensor([0.8926]),"tensor([1], dtype=torch.int32)",366,168,464,230,False,0,0,0,0,
+31.0,car,tensor([0.8809]),"tensor([2], dtype=torch.int32)",459,156,661,259,False,0,0,0,0,
+31.0,car,tensor([0.8480]),"tensor([3], dtype=torch.int32)",303,168,375,218,False,0,0,0,0,
+31.0,car,tensor([0.7911]),"tensor([4], dtype=torch.int32)",227,161,265,196,False,0,0,0,0,
+31.0,car,tensor([0.6719]),"tensor([5], dtype=torch.int32)",254,169,293,201,False,0,0,0,0,
+31.0,license plate,tensor([0.6008]),"tensor([1], dtype=torch.int32)",617,226,647,235,True,617,226,647,235,a
+32.0,car,tensor([0.8942]),"tensor([1], dtype=torch.int32)",366,168,464,230,False,0,0,0,0,
+32.0,car,tensor([0.8917]),"tensor([2], dtype=torch.int32)",460,157,661,260,False,0,0,0,0,
+32.0,car,tensor([0.8471]),"tensor([3], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+32.0,car,tensor([0.7893]),"tensor([4], dtype=torch.int32)",227,161,265,196,False,0,0,0,0,
+32.0,car,tensor([0.6562]),"tensor([5], dtype=torch.int32)",255,169,293,201,False,0,0,0,0,
+32.0,license plate,tensor([0.7029]),"tensor([1], dtype=torch.int32)",617,225,649,235,True,617,225,649,235,not detected
+33.0,car,tensor([0.8945]),"tensor([1], dtype=torch.int32)",366,168,464,230,False,0,0,0,0,
+33.0,car,tensor([0.8922]),"tensor([2], dtype=torch.int32)",460,157,661,260,False,0,0,0,0,
+33.0,car,tensor([0.8427]),"tensor([3], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+33.0,car,tensor([0.7938]),"tensor([4], dtype=torch.int32)",227,161,265,196,False,0,0,0,0,
+33.0,car,tensor([0.6621]),"tensor([5], dtype=torch.int32)",255,169,294,201,False,0,0,0,0,
+33.0,license plate,tensor([0.7102]),"tensor([1], dtype=torch.int32)",617,225,650,235,True,617,225,650,235,not detected
+34.0,car,tensor([0.8977]),"tensor([1], dtype=torch.int32)",366,168,465,230,False,0,0,0,0,
+34.0,car,tensor([0.8788]),"tensor([2], dtype=torch.int32)",461,157,661,260,False,0,0,0,0,
+34.0,car,tensor([0.8425]),"tensor([3], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+34.0,car,tensor([0.7823]),"tensor([4], dtype=torch.int32)",227,161,265,196,False,0,0,0,0,
+34.0,car,tensor([0.6519]),"tensor([5], dtype=torch.int32)",255,169,294,201,False,0,0,0,0,
+34.0,license plate,tensor([0.7354]),"tensor([1], dtype=torch.int32)",617,226,651,235,True,617,226,651,235,not detected
+35.0,car,tensor([0.8998]),"tensor([1], dtype=torch.int32)",366,168,465,231,False,0,0,0,0,
+35.0,car,tensor([0.8696]),"tensor([2], dtype=torch.int32)",461,157,662,260,False,0,0,0,0,
+35.0,car,tensor([0.8380]),"tensor([3], dtype=torch.int32)",304,168,375,218,False,0,0,0,0,
+35.0,car,tensor([0.7891]),"tensor([4], dtype=torch.int32)",227,161,266,196,False,0,0,0,0,
+35.0,car,tensor([0.6350]),"tensor([5], dtype=torch.int32)",256,169,294,202,False,0,0,0,0,
+35.0,license plate,tensor([0.7667]),"tensor([1], dtype=torch.int32)",618,226,651,236,True,618,226,651,236,not detected
+36.0,car,tensor([0.8977]),"tensor([1], dtype=torch.int32)",366,168,465,230,False,0,0,0,0,
+36.0,car,tensor([0.8760]),"tensor([2], dtype=torch.int32)",462,157,662,260,False,0,0,0,0,
+36.0,car,tensor([0.8224]),"tensor([3], dtype=torch.int32)",305,169,376,218,False,0,0,0,0,
+36.0,car,tensor([0.7734]),"tensor([4], dtype=torch.int32)",227,161,267,195,False,0,0,0,0,
+36.0,car,tensor([0.6246]),"tensor([5], dtype=torch.int32)",256,169,294,201,False,0,0,0,0,
+36.0,license plate,tensor([0.7111]),"tensor([1], dtype=torch.int32)",618,226,651,236,True,618,226,651,236,not detected
+37.0,car,tensor([0.9016]),"tensor([1], dtype=torch.int32)",366,169,465,231,False,0,0,0,0,
+37.0,car,tensor([0.8813]),"tensor([2], dtype=torch.int32)",462,157,662,260,False,0,0,0,0,
+37.0,car,tensor([0.8228]),"tensor([3], dtype=torch.int32)",305,169,376,218,False,0,0,0,0,
+37.0,car,tensor([0.7520]),"tensor([4], dtype=torch.int32)",227,161,266,195,False,0,0,0,0,
+37.0,car,tensor([0.6275]),"tensor([5], dtype=torch.int32)",256,169,294,202,False,0,0,0,0,
+37.0,license plate,tensor([0.6209]),"tensor([1], dtype=torch.int32)",618,226,650,236,True,618,226,650,236,not detected
+38.0,car,tensor([0.9029]),"tensor([1], dtype=torch.int32)",366,168,465,231,False,0,0,0,0,
+38.0,car,tensor([0.8887]),"tensor([2], dtype=torch.int32)",462,157,662,261,False,0,0,0,0,
+38.0,car,tensor([0.8212]),"tensor([3], dtype=torch.int32)",305,169,376,218,False,0,0,0,0,
+38.0,car,tensor([0.7450]),"tensor([4], dtype=torch.int32)",227,162,267,195,False,0,0,0,0,
+38.0,car,tensor([0.6302]),"tensor([5], dtype=torch.int32)",257,169,294,202,False,0,0,0,0,
+38.0,license plate,tensor([0.5156]),-1,619,226,650,236,True,619,226,650,236,not detected
+38.0,license plate,tensor([0.3999]),-1,431,209,459,217,True,431,209,459,217,a |
+39.0,car,tensor([0.9026]),"tensor([1], dtype=torch.int32)",366,169,465,231,False,0,0,0,0,
+39.0,car,tensor([0.8887]),"tensor([2], dtype=torch.int32)",462,157,662,261,False,0,0,0,0,
+39.0,car,tensor([0.8190]),"tensor([3], dtype=torch.int32)",306,169,376,218,False,0,0,0,0,
+39.0,car,tensor([0.7639]),"tensor([4], dtype=torch.int32)",228,162,267,195,False,0,0,0,0,
+39.0,car,tensor([0.6427]),"tensor([5], dtype=torch.int32)",257,169,294,202,False,0,0,0,0,
+39.0,license plate,tensor([0.4631]),-1,620,227,650,237,True,620,227,650,237,a
+39.0,license plate,tensor([0.4039]),-1,431,209,459,217,True,431,209,459,217,a |
+40.0,car,tensor([0.8980]),"tensor([1], dtype=torch.int32)",366,169,465,231,False,0,0,0,0,
+40.0,car,tensor([0.8781]),"tensor([2], dtype=torch.int32)",462,158,663,261,False,0,0,0,0,
+40.0,car,tensor([0.8175]),"tensor([3], dtype=torch.int32)",306,169,377,218,False,0,0,0,0,
+40.0,car,tensor([0.7762]),"tensor([4], dtype=torch.int32)",228,162,267,196,False,0,0,0,0,
+40.0,car,tensor([0.6498]),"tensor([5], dtype=torch.int32)",257,169,294,202,False,0,0,0,0,
+40.0,license plate,tensor([0.5376]),-1,619,227,651,237,True,619,227,651,237,ene -
+40.0,license plate,tensor([0.4886]),-1,431,209,459,217,True,431,209,459,217,"""oe"
+41.0,car,tensor([0.8977]),"tensor([1], dtype=torch.int32)",366,169,466,231,False,0,0,0,0,
+41.0,car,tensor([0.8749]),"tensor([2], dtype=torch.int32)",462,158,663,261,False,0,0,0,0,
+41.0,car,tensor([0.8094]),"tensor([3], dtype=torch.int32)",307,169,377,219,False,0,0,0,0,
+41.0,car,tensor([0.7584]),"tensor([4], dtype=torch.int32)",228,162,267,196,False,0,0,0,0,
+41.0,car,tensor([0.6461]),"tensor([5], dtype=torch.int32)",257,169,294,202,False,0,0,0,0,
+41.0,license plate,tensor([0.4582]),-1,431,209,459,217,True,431,209,459,217,ve
+41.0,license plate,tensor([0.4573]),-1,620,227,653,237,True,620,227,653,237,not detected
+42.0,car,tensor([0.9016]),"tensor([1], dtype=torch.int32)",366,169,466,231,False,0,0,0,0,
+42.0,car,tensor([0.8777]),"tensor([2], dtype=torch.int32)",463,158,663,261,False,0,0,0,0,
+42.0,car,tensor([0.8057]),"tensor([3], dtype=torch.int32)",308,170,377,219,False,0,0,0,0,
+42.0,car,tensor([0.7569]),"tensor([4], dtype=torch.int32)",228,162,268,196,False,0,0,0,0,
+42.0,car,tensor([0.6471]),"tensor([5], dtype=torch.int32)",257,169,294,202,False,0,0,0,0,
+42.0,license plate,tensor([0.5764]),-1,430,209,459,218,True,430,209,459,218,not detected
+42.0,license plate,tensor([0.5475]),-1,620,227,655,238,True,620,227,655,238,not detected
+43.0,car,tensor([0.8982]),"tensor([1], dtype=torch.int32)",366,169,466,231,False,0,0,0,0,
+43.0,car,tensor([0.8815]),"tensor([2], dtype=torch.int32)",463,158,663,261,False,0,0,0,0,
+43.0,car,tensor([0.7989]),"tensor([3], dtype=torch.int32)",307,169,376,219,False,0,0,0,0,
+43.0,car,tensor([0.7296]),"tensor([4], dtype=torch.int32)",228,162,268,196,False,0,0,0,0,
+43.0,car,tensor([0.6396]),"tensor([5], dtype=torch.int32)",258,169,294,202,False,0,0,0,0,
+43.0,license plate,tensor([0.6236]),"tensor([1], dtype=torch.int32)",621,228,657,238,True,621,228,657,238,not detected
+44.0,car,tensor([0.8943]),"tensor([1], dtype=torch.int32)",367,170,466,231,False,0,0,0,0,
+44.0,car,tensor([0.8707]),"tensor([2], dtype=torch.int32)",463,158,663,261,False,0,0,0,0,
+44.0,car,tensor([0.7957]),"tensor([3], dtype=torch.int32)",307,170,378,219,False,0,0,0,0,
+44.0,car,tensor([0.7236]),"tensor([4], dtype=torch.int32)",228,162,267,196,False,0,0,0,0,
+44.0,car,tensor([0.6647]),"tensor([5], dtype=torch.int32)",257,169,294,201,False,0,0,0,0,
+44.0,person,tensor([0.6013]),"tensor([6], dtype=torch.int32)",145,161,171,247,False,0,0,0,0,
+44.0,license plate,tensor([0.5739]),-1,622,228,656,238,True,622,228,656,238,not detected
+44.0,license plate,tensor([0.4727]),-1,431,210,460,218,True,431,210,460,218,> oa
+44.0,license plate,tensor([0.1071]),-1,627,227,664,238,True,627,227,664,238,Se
+44.0,license plate,tensor([0.1035]),-1,612,228,658,238,True,612,228,658,238,oe
+45.0,car,tensor([0.8959]),"tensor([1], dtype=torch.int32)",367,170,466,231,False,0,0,0,0,
+45.0,car,tensor([0.8697]),"tensor([2], dtype=torch.int32)",463,158,663,261,False,0,0,0,0,
+45.0,car,tensor([0.7936]),"tensor([3], dtype=torch.int32)",306,169,377,219,False,0,0,0,0,
+45.0,car,tensor([0.6747]),"tensor([4], dtype=torch.int32)",258,169,295,202,False,0,0,0,0,
+45.0,car,tensor([0.6718]),"tensor([5], dtype=torch.int32)",229,162,268,196,False,0,0,0,0,
+45.0,license plate,tensor([0.6876]),"tensor([1], dtype=torch.int32)",622,228,657,239,True,622,228,657,239,not detected
+46.0,car,tensor([0.8932]),"tensor([1], dtype=torch.int32)",367,170,467,231,False,0,0,0,0,
+46.0,car,tensor([0.8690]),"tensor([2], dtype=torch.int32)",464,159,664,262,False,0,0,0,0,
+46.0,car,tensor([0.7917]),"tensor([3], dtype=torch.int32)",304,170,377,219,False,0,0,0,0,
+46.0,car,tensor([0.6481]),"tensor([4], dtype=torch.int32)",258,169,295,202,False,0,0,0,0,
+46.0,car,tensor([0.6323]),"tensor([5], dtype=torch.int32)",229,163,268,196,False,0,0,0,0,
+46.0,license plate,tensor([0.7687]),"tensor([1], dtype=torch.int32)",622,228,656,239,True,622,228,656,239,not detected
+47.0,car,tensor([0.8888]),"tensor([1], dtype=torch.int32)",367,171,466,231,False,0,0,0,0,
+47.0,car,tensor([0.8723]),"tensor([2], dtype=torch.int32)",464,159,664,262,False,0,0,0,0,
+47.0,car,tensor([0.7938]),"tensor([3], dtype=torch.int32)",305,170,377,220,False,0,0,0,0,
+47.0,car,tensor([0.6825]),"tensor([4], dtype=torch.int32)",230,164,268,196,False,0,0,0,0,
+47.0,car,tensor([0.6448]),"tensor([5], dtype=torch.int32)",258,169,296,202,False,0,0,0,0,
+47.0,license plate,tensor([0.7647]),"tensor([1], dtype=torch.int32)",622,229,655,239,True,622,229,655,239,pie -
+48.0,car,tensor([0.8851]),"tensor([1], dtype=torch.int32)",367,171,466,232,False,0,0,0,0,
+48.0,car,tensor([0.8736]),"tensor([2], dtype=torch.int32)",464,159,664,262,False,0,0,0,0,
+48.0,car,tensor([0.7873]),"tensor([3], dtype=torch.int32)",307,170,377,220,False,0,0,0,0,
+48.0,car,tensor([0.6751]),"tensor([4], dtype=torch.int32)",230,163,268,196,False,0,0,0,0,
+48.0,car,tensor([0.6688]),"tensor([5], dtype=torch.int32)",259,169,296,202,False,0,0,0,0,
+48.0,license plate,tensor([0.7850]),"tensor([1], dtype=torch.int32)",622,229,656,239,True,622,229,656,239,ns
+49.0,car,tensor([0.8868]),"tensor([1], dtype=torch.int32)",368,171,467,232,False,0,0,0,0,
+49.0,car,tensor([0.8735]),"tensor([2], dtype=torch.int32)",464,159,664,262,False,0,0,0,0,
+49.0,car,tensor([0.7900]),"tensor([3], dtype=torch.int32)",307,170,378,220,False,0,0,0,0,
+49.0,car,tensor([0.6908]),"tensor([4], dtype=torch.int32)",230,163,268,196,False,0,0,0,0,
+49.0,car,tensor([0.6526]),"tensor([5], dtype=torch.int32)",259,169,296,202,False,0,0,0,0,
+49.0,license plate,tensor([0.7905]),"tensor([1], dtype=torch.int32)",622,229,658,240,True,622,229,658,240,not detected
+49.0,license plate,tensor([0.6192]),"tensor([2], dtype=torch.int32)",432,210,460,218,True,432,210,460,218,> Se
+50.0,car,tensor([0.8830]),"tensor([1], dtype=torch.int32)",368,171,467,232,False,0,0,0,0,
+50.0,car,tensor([0.8732]),"tensor([2], dtype=torch.int32)",464,159,665,262,False,0,0,0,0,
+50.0,car,tensor([0.7858]),"tensor([3], dtype=torch.int32)",309,170,378,220,False,0,0,0,0,
+50.0,car,tensor([0.7035]),"tensor([4], dtype=torch.int32)",231,164,269,196,False,0,0,0,0,
+50.0,car,tensor([0.6565]),"tensor([5], dtype=torch.int32)",260,170,296,202,False,0,0,0,0,
+50.0,person,tensor([0.6497]),"tensor([6], dtype=torch.int32)",143,153,172,247,False,0,0,0,0,
+50.0,license plate,tensor([0.7733]),"tensor([1], dtype=torch.int32)",623,229,658,240,True,623,229,658,240,not detected
+51.0,car,tensor([0.8778]),"tensor([1], dtype=torch.int32)",368,171,467,232,False,0,0,0,0,
+51.0,car,tensor([0.8696]),"tensor([2], dtype=torch.int32)",464,160,664,263,False,0,0,0,0,
+51.0,car,tensor([0.7751]),"tensor([3], dtype=torch.int32)",308,170,378,220,False,0,0,0,0,
+51.0,car,tensor([0.7144]),"tensor([4], dtype=torch.int32)",231,163,269,196,False,0,0,0,0,
+51.0,car,tensor([0.6539]),"tensor([5], dtype=torch.int32)",260,170,297,202,False,0,0,0,0,
+51.0,person,tensor([0.6306]),"tensor([6], dtype=torch.int32)",143,154,172,247,False,0,0,0,0,
+51.0,license plate,tensor([0.7524]),"tensor([1], dtype=torch.int32)",622,229,658,240,True,622,229,658,240,not detected
+52.0,car,tensor([0.8791]),"tensor([1], dtype=torch.int32)",464,160,665,263,False,0,0,0,0,
+52.0,car,tensor([0.8757]),"tensor([2], dtype=torch.int32)",369,171,467,232,False,0,0,0,0,
+52.0,car,tensor([0.7902]),"tensor([3], dtype=torch.int32)",310,170,379,220,False,0,0,0,0,
+52.0,car,tensor([0.7091]),"tensor([4], dtype=torch.int32)",231,164,269,196,False,0,0,0,0,
+52.0,car,tensor([0.6421]),"tensor([5], dtype=torch.int32)",261,170,297,202,False,0,0,0,0,
+52.0,person,tensor([0.6166]),"tensor([6], dtype=torch.int32)",143,155,172,248,False,0,0,0,0,
+52.0,license plate,tensor([0.7541]),"tensor([1], dtype=torch.int32)",622,230,657,239,True,622,230,657,239,a
+53.0,car,tensor([0.8839]),"tensor([1], dtype=torch.int32)",465,161,665,263,False,0,0,0,0,
+53.0,car,tensor([0.8770]),"tensor([2], dtype=torch.int32)",369,171,467,232,False,0,0,0,0,
+53.0,car,tensor([0.8219]),"tensor([3], dtype=torch.int32)",310,170,379,220,False,0,0,0,0,
+53.0,car,tensor([0.6830]),"tensor([4], dtype=torch.int32)",231,164,270,196,False,0,0,0,0,
+53.0,car,tensor([0.6540]),"tensor([5], dtype=torch.int32)",261,170,298,202,False,0,0,0,0,
+53.0,person,tensor([0.6048]),"tensor([6], dtype=torch.int32)",143,154,173,248,False,0,0,0,0,
+53.0,license plate,tensor([0.6793]),"tensor([1], dtype=torch.int32)",622,230,654,239,True,622,230,654,239,not detected
+54.0,car,tensor([0.8794]),"tensor([1], dtype=torch.int32)",465,161,665,264,False,0,0,0,0,
+54.0,car,tensor([0.8781]),"tensor([2], dtype=torch.int32)",369,172,467,233,False,0,0,0,0,
+54.0,car,tensor([0.8300]),"tensor([3], dtype=torch.int32)",309,170,380,221,False,0,0,0,0,
+54.0,person,tensor([0.7148]),"tensor([4], dtype=torch.int32)",143,154,173,248,False,0,0,0,0,
+54.0,car,tensor([0.6446]),"tensor([5], dtype=torch.int32)",261,170,298,202,False,0,0,0,0,
+54.0,car,tensor([0.6329]),"tensor([6], dtype=torch.int32)",232,165,270,196,False,0,0,0,0,
+54.0,license plate,tensor([0.6057]),"tensor([1], dtype=torch.int32)",622,230,656,239,True,622,230,656,239,a
+55.0,car,tensor([0.8799]),"tensor([1], dtype=torch.int32)",369,172,467,233,False,0,0,0,0,
+55.0,car,tensor([0.8770]),"tensor([2], dtype=torch.int32)",465,161,666,264,False,0,0,0,0,
+55.0,car,tensor([0.8330]),"tensor([3], dtype=torch.int32)",309,170,379,221,False,0,0,0,0,
+55.0,person,tensor([0.7066]),"tensor([4], dtype=torch.int32)",143,153,173,248,False,0,0,0,0,
+55.0,car,tensor([0.6720]),"tensor([5], dtype=torch.int32)",261,170,298,202,False,0,0,0,0,
+55.0,car,tensor([0.6421]),"tensor([6], dtype=torch.int32)",232,166,270,196,False,0,0,0,0,
+55.0,license plate,tensor([0.4913]),-1,624,231,655,239,True,624,231,655,239,not detected
+55.0,license plate,tensor([0.2091]),-1,434,210,459,218,True,434,210,459,218,not detected
+55.0,license plate,tensor([0.1910]),-1,438,212,458,218,True,438,212,458,218,nn
+56.0,car,tensor([0.8812]),"tensor([1], dtype=torch.int32)",465,162,666,264,False,0,0,0,0,
+56.0,car,tensor([0.8744]),"tensor([2], dtype=torch.int32)",369,172,468,233,False,0,0,0,0,
+56.0,car,tensor([0.8487]),"tensor([3], dtype=torch.int32)",311,170,379,221,False,0,0,0,0,
+56.0,person,tensor([0.7366]),"tensor([4], dtype=torch.int32)",143,153,173,248,False,0,0,0,0,
+56.0,car,tensor([0.6753]),"tensor([5], dtype=torch.int32)",262,170,299,202,False,0,0,0,0,
+56.0,car,tensor([0.6397]),"tensor([6], dtype=torch.int32)",233,166,270,197,False,0,0,0,0,
+56.0,license plate,tensor([0.4775]),-1,624,231,657,239,True,624,231,657,239,not detected
+56.0,license plate,tensor([0.1936]),-1,438,212,459,218,True,438,212,459,218,not detected
+57.0,car,tensor([0.8820]),"tensor([1], dtype=torch.int32)",465,162,666,264,False,0,0,0,0,
+57.0,car,tensor([0.8687]),"tensor([2], dtype=torch.int32)",369,172,468,233,False,0,0,0,0,
+57.0,car,tensor([0.8499]),"tensor([3], dtype=torch.int32)",310,171,379,222,False,0,0,0,0,
+57.0,person,tensor([0.7308]),"tensor([4], dtype=torch.int32)",144,154,174,248,False,0,0,0,0,
+57.0,car,tensor([0.6825]),"tensor([5], dtype=torch.int32)",262,171,299,202,False,0,0,0,0,
+57.0,car,tensor([0.6141]),"tensor([6], dtype=torch.int32)",233,166,269,197,False,0,0,0,0,
+57.0,license plate,tensor([0.5270]),-1,623,231,656,240,True,623,231,656,240,oe
+57.0,license plate,tensor([0.1691]),-1,438,212,459,219,True,438,212,459,219,aa
+57.0,license plate,tensor([0.1492]),-1,435,211,458,218,True,435,211,458,218,ae
+58.0,car,tensor([0.8758]),"tensor([1], dtype=torch.int32)",465,162,667,265,False,0,0,0,0,
+58.0,car,tensor([0.8553]),"tensor([2], dtype=torch.int32)",370,172,468,233,False,0,0,0,0,
+58.0,car,tensor([0.8335]),"tensor([3], dtype=torch.int32)",311,171,380,222,False,0,0,0,0,
+58.0,person,tensor([0.7045]),"tensor([4], dtype=torch.int32)",144,155,174,248,False,0,0,0,0,
+58.0,car,tensor([0.7016]),"tensor([5], dtype=torch.int32)",262,171,299,202,False,0,0,0,0,
+58.0,license plate,tensor([0.5158]),-1,624,231,656,240,True,624,231,656,240,ae
+58.0,license plate,tensor([0.1224]),-1,437,197,459,207,True,437,197,459,207,not detected
+59.0,car,tensor([0.8722]),"tensor([1], dtype=torch.int32)",465,162,667,265,False,0,0,0,0,
+59.0,car,tensor([0.8536]),"tensor([2], dtype=torch.int32)",370,173,468,234,False,0,0,0,0,
+59.0,car,tensor([0.8463]),"tensor([3], dtype=torch.int32)",314,171,380,222,False,0,0,0,0,
+59.0,car,tensor([0.7098]),"tensor([4], dtype=torch.int32)",261,171,299,202,False,0,0,0,0,
+59.0,person,tensor([0.6772]),"tensor([5], dtype=torch.int32)",144,155,174,248,False,0,0,0,0,
+59.0,license plate,tensor([0.4827]),-1,624,231,656,240,True,624,231,656,240,not detected
+59.0,license plate,tensor([0.1091]),-1,435,211,456,218,True,435,211,456,218,a
+59.0,license plate,tensor([0.1008]),-1,437,197,459,207,True,437,197,459,207,Hah.
+60.0,car,tensor([0.8817]),"tensor([1], dtype=torch.int32)",466,161,668,265,False,0,0,0,0,
+60.0,car,tensor([0.8713]),"tensor([2], dtype=torch.int32)",370,173,467,234,False,0,0,0,0,
+60.0,car,tensor([0.8582]),"tensor([3], dtype=torch.int32)",313,170,381,222,False,0,0,0,0,
+60.0,person,tensor([0.6833]),"tensor([4], dtype=torch.int32)",144,154,174,247,False,0,0,0,0,
+60.0,car,tensor([0.6378]),"tensor([5], dtype=torch.int32)",262,171,299,202,False,0,0,0,0,
+60.0,license plate,tensor([0.5710]),-1,622,231,655,240,True,622,231,655,240,not detected
+60.0,license plate,tensor([0.1371]),-1,438,212,458,218,True,438,212,458,218,a
+60.0,license plate,tensor([0.1223]),-1,435,211,456,216,True,435,211,456,216,not detected
+61.0,car,tensor([0.8835]),"tensor([1], dtype=torch.int32)",466,161,668,265,False,0,0,0,0,
+61.0,car,tensor([0.8729]),"tensor([2], dtype=torch.int32)",312,170,382,222,False,0,0,0,0,
+61.0,car,tensor([0.8672]),"tensor([3], dtype=torch.int32)",370,173,468,235,False,0,0,0,0,
+61.0,person,tensor([0.6933]),"tensor([4], dtype=torch.int32)",145,154,174,247,False,0,0,0,0,
+61.0,car,tensor([0.6598]),"tensor([5], dtype=torch.int32)",262,171,299,203,False,0,0,0,0,
+61.0,car,tensor([0.6123]),"tensor([6], dtype=torch.int32)",234,166,271,197,False,0,0,0,0,
+61.0,license plate,tensor([0.4674]),-1,623,231,656,240,True,623,231,656,240,a
+61.0,license plate,tensor([0.1140]),-1,435,211,456,216,True,435,211,456,216,.:. —n
+61.0,license plate,tensor([0.1061]),-1,438,212,458,218,True,438,212,458,218,nn
+62.0,car,tensor([0.8881]),"tensor([1], dtype=torch.int32)",467,162,668,266,False,0,0,0,0,
+62.0,car,tensor([0.8843]),"tensor([2], dtype=torch.int32)",311,170,382,222,False,0,0,0,0,
+62.0,car,tensor([0.8747]),"tensor([3], dtype=torch.int32)",370,173,468,235,False,0,0,0,0,
+62.0,person,tensor([0.6666]),"tensor([4], dtype=torch.int32)",146,156,173,248,False,0,0,0,0,
+62.0,car,tensor([0.6497]),"tensor([5], dtype=torch.int32)",262,171,299,203,False,0,0,0,0,
+62.0,car,tensor([0.6448]),"tensor([6], dtype=torch.int32)",235,166,272,197,False,0,0,0,0,
+62.0,license plate,tensor([0.4750]),-1,623,231,657,240,True,623,231,657,240,not detected
+63.0,car,tensor([0.8882]),"tensor([1], dtype=torch.int32)",313,171,382,222,False,0,0,0,0,
+63.0,car,tensor([0.8853]),"tensor([2], dtype=torch.int32)",467,162,669,266,False,0,0,0,0,
+63.0,car,tensor([0.8799]),"tensor([3], dtype=torch.int32)",370,173,468,235,False,0,0,0,0,
+63.0,person,tensor([0.7128]),"tensor([4], dtype=torch.int32)",145,155,175,248,False,0,0,0,0,
+63.0,car,tensor([0.6607]),"tensor([5], dtype=torch.int32)",262,171,300,203,False,0,0,0,0,
+63.0,car,tensor([0.6562]),"tensor([6], dtype=torch.int32)",235,167,272,197,False,0,0,0,0,
+63.0,license plate,tensor([0.3981]),-1,623,231,658,240,True,623,231,658,240,not detected
+64.0,car,tensor([0.8943]),"tensor([1], dtype=torch.int32)",315,171,383,222,False,0,0,0,0,
+64.0,car,tensor([0.8869]),"tensor([2], dtype=torch.int32)",467,162,669,266,False,0,0,0,0,
+64.0,car,tensor([0.8856]),"tensor([3], dtype=torch.int32)",370,173,469,235,False,0,0,0,0,
+64.0,person,tensor([0.7269]),"tensor([4], dtype=torch.int32)",145,156,175,248,False,0,0,0,0,
+64.0,car,tensor([0.6724]),"tensor([5], dtype=torch.int32)",262,171,301,204,False,0,0,0,0,
+64.0,car,tensor([0.6710]),"tensor([6], dtype=torch.int32)",235,167,272,197,False,0,0,0,0,
+64.0,license plate,tensor([0.3920]),-1,623,231,658,240,True,623,231,658,240,not detected
+65.0,car,tensor([0.8989]),"tensor([1], dtype=torch.int32)",315,171,383,222,False,0,0,0,0,
+65.0,car,tensor([0.8904]),"tensor([2], dtype=torch.int32)",370,174,469,235,False,0,0,0,0,
+65.0,car,tensor([0.8902]),"tensor([3], dtype=torch.int32)",467,162,669,266,False,0,0,0,0,
+65.0,person,tensor([0.7051]),"tensor([4], dtype=torch.int32)",145,157,175,248,False,0,0,0,0,
+65.0,car,tensor([0.6768]),"tensor([5], dtype=torch.int32)",262,171,302,204,False,0,0,0,0,
+65.0,car,tensor([0.6652]),"tensor([6], dtype=torch.int32)",235,167,271,197,False,0,0,0,0,
+65.0,license plate,tensor([0.4332]),-1,623,231,658,241,True,623,231,658,241,i
+66.0,car,tensor([0.9093]),"tensor([1], dtype=torch.int32)",315,171,383,222,False,0,0,0,0,
+66.0,car,tensor([0.8928]),"tensor([2], dtype=torch.int32)",468,162,669,266,False,0,0,0,0,
+66.0,car,tensor([0.8921]),"tensor([3], dtype=torch.int32)",370,174,469,236,False,0,0,0,0,
+66.0,person,tensor([0.6876]),"tensor([4], dtype=torch.int32)",146,158,174,248,False,0,0,0,0,
+66.0,car,tensor([0.6864]),"tensor([5], dtype=torch.int32)",262,172,301,203,False,0,0,0,0,
+66.0,car,tensor([0.6658]),"tensor([6], dtype=torch.int32)",235,167,271,197,False,0,0,0,0,
+66.0,license plate,tensor([0.4437]),-1,622,231,658,241,True,622,231,658,241,not detected
+67.0,car,tensor([0.9110]),"tensor([1], dtype=torch.int32)",315,171,383,222,False,0,0,0,0,
+67.0,car,tensor([0.8899]),"tensor([2], dtype=torch.int32)",370,174,470,236,False,0,0,0,0,
+67.0,car,tensor([0.8888]),"tensor([3], dtype=torch.int32)",468,162,669,266,False,0,0,0,0,
+67.0,car,tensor([0.6977]),"tensor([4], dtype=torch.int32)",262,171,301,204,False,0,0,0,0,
+67.0,person,tensor([0.6763]),"tensor([5], dtype=torch.int32)",146,158,174,248,False,0,0,0,0,
+67.0,car,tensor([0.6645]),"tensor([6], dtype=torch.int32)",235,167,271,197,False,0,0,0,0,
+67.0,license plate,tensor([0.4298]),-1,622,231,659,242,True,622,231,659,242,not detected
+67.0,license plate,tensor([0.1048]),-1,435,211,455,220,True,435,211,455,220,not detected
+68.0,car,tensor([0.9065]),"tensor([1], dtype=torch.int32)",315,171,383,222,False,0,0,0,0,
+68.0,car,tensor([0.8898]),"tensor([2], dtype=torch.int32)",468,163,669,266,False,0,0,0,0,
+68.0,car,tensor([0.8861]),"tensor([3], dtype=torch.int32)",371,174,470,236,False,0,0,0,0,
+68.0,car,tensor([0.7203]),"tensor([4], dtype=torch.int32)",262,172,302,204,False,0,0,0,0,
+68.0,car,tensor([0.6609]),"tensor([5], dtype=torch.int32)",235,167,271,198,False,0,0,0,0,
+68.0,person,tensor([0.6519]),"tensor([6], dtype=torch.int32)",147,157,174,248,False,0,0,0,0,
+68.0,license plate,tensor([0.4468]),-1,622,231,659,242,True,622,231,659,242,a _
+69.0,car,tensor([0.9043]),"tensor([1], dtype=torch.int32)",316,172,383,222,False,0,0,0,0,
+69.0,car,tensor([0.8876]),"tensor([2], dtype=torch.int32)",468,163,670,266,False,0,0,0,0,
+69.0,car,tensor([0.8840]),"tensor([3], dtype=torch.int32)",371,174,471,237,False,0,0,0,0,
+69.0,car,tensor([0.7285]),"tensor([4], dtype=torch.int32)",262,172,302,204,False,0,0,0,0,
+69.0,person,tensor([0.6701]),"tensor([5], dtype=torch.int32)",147,157,174,248,False,0,0,0,0,
+69.0,car,tensor([0.6512]),"tensor([6], dtype=torch.int32)",236,167,271,198,False,0,0,0,0,
+69.0,license plate,tensor([0.4614]),-1,623,231,659,242,True,623,231,659,242,not detected
+70.0,car,tensor([0.9029]),"tensor([1], dtype=torch.int32)",316,172,384,222,False,0,0,0,0,
+70.0,car,tensor([0.8891]),"tensor([2], dtype=torch.int32)",468,164,670,266,False,0,0,0,0,
+70.0,car,tensor([0.8827]),"tensor([3], dtype=torch.int32)",371,174,471,237,False,0,0,0,0,
+70.0,car,tensor([0.7346]),"tensor([4], dtype=torch.int32)",262,172,302,204,False,0,0,0,0,
+70.0,person,tensor([0.6584]),"tensor([5], dtype=torch.int32)",148,156,173,249,False,0,0,0,0,
+70.0,car,tensor([0.6472]),"tensor([6], dtype=torch.int32)",236,167,271,198,False,0,0,0,0,
+70.0,car,tensor([0.6164]),"tensor([7], dtype=torch.int32)",194,173,210,204,False,0,0,0,0,
+70.0,license plate,tensor([0.4741]),-1,623,231,660,242,True,623,231,660,242,not detected
+71.0,car,tensor([0.8943]),"tensor([1], dtype=torch.int32)",317,172,384,223,False,0,0,0,0,
+71.0,car,tensor([0.8933]),"tensor([2], dtype=torch.int32)",468,163,670,267,False,0,0,0,0,
+71.0,car,tensor([0.8814]),"tensor([3], dtype=torch.int32)",371,174,471,237,False,0,0,0,0,
+71.0,car,tensor([0.7481]),"tensor([4], dtype=torch.int32)",262,172,302,204,False,0,0,0,0,
+71.0,car,tensor([0.6704]),"tensor([5], dtype=torch.int32)",194,173,210,204,False,0,0,0,0,
+71.0,person,tensor([0.6632]),"tensor([6], dtype=torch.int32)",148,157,174,248,False,0,0,0,0,
+71.0,car,tensor([0.6361]),"tensor([7], dtype=torch.int32)",236,168,271,198,False,0,0,0,0,
+71.0,license plate,tensor([0.4253]),-1,623,231,661,242,True,623,231,661,242,not detected
+72.0,car,tensor([0.8944]),"tensor([1], dtype=torch.int32)",468,163,670,267,False,0,0,0,0,
+72.0,car,tensor([0.8791]),"tensor([2], dtype=torch.int32)",372,174,471,237,False,0,0,0,0,
+72.0,car,tensor([0.8586]),"tensor([3], dtype=torch.int32)",317,172,384,223,False,0,0,0,0,
+72.0,car,tensor([0.7563]),"tensor([4], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+72.0,car,tensor([0.6908]),"tensor([5], dtype=torch.int32)",195,173,212,205,False,0,0,0,0,
+72.0,car,tensor([0.6233]),"tensor([6], dtype=torch.int32)",236,168,271,198,False,0,0,0,0,
+72.0,license plate,tensor([0.3779]),-1,623,231,661,243,True,623,231,661,243,not detected
+72.0,license plate,tensor([0.1214]),-1,435,210,460,220,True,435,210,460,220,minions
+73.0,car,tensor([0.8919]),"tensor([1], dtype=torch.int32)",468,163,670,267,False,0,0,0,0,
+73.0,car,tensor([0.8734]),"tensor([2], dtype=torch.int32)",372,174,471,237,False,0,0,0,0,
+73.0,car,tensor([0.8561]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+73.0,car,tensor([0.7477]),"tensor([4], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+73.0,car,tensor([0.7281]),"tensor([5], dtype=torch.int32)",194,172,213,205,False,0,0,0,0,
+73.0,car,tensor([0.6341]),"tensor([6], dtype=torch.int32)",236,168,271,198,False,0,0,0,0,
+73.0,license plate,tensor([0.3167]),-1,623,231,662,243,True,623,231,662,243,not detected
+73.0,license plate,tensor([0.1096]),-1,435,210,458,220,True,435,210,458,220,a
+74.0,car,tensor([0.8891]),"tensor([1], dtype=torch.int32)",468,164,670,267,False,0,0,0,0,
+74.0,car,tensor([0.8723]),"tensor([2], dtype=torch.int32)",372,174,471,237,False,0,0,0,0,
+74.0,car,tensor([0.8572]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+74.0,car,tensor([0.7932]),"tensor([4], dtype=torch.int32)",194,170,213,206,False,0,0,0,0,
+74.0,car,tensor([0.7588]),"tensor([5], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+74.0,person,tensor([0.7153]),"tensor([6], dtype=torch.int32)",148,157,174,245,False,0,0,0,0,
+74.0,car,tensor([0.6484]),"tensor([7], dtype=torch.int32)",236,168,272,198,False,0,0,0,0,
+74.0,license plate,tensor([0.3483]),-1,624,231,662,243,True,624,231,662,243,not detected
+75.0,car,tensor([0.8899]),"tensor([1], dtype=torch.int32)",468,164,670,267,False,0,0,0,0,
+75.0,car,tensor([0.8716]),"tensor([2], dtype=torch.int32)",372,174,472,237,False,0,0,0,0,
+75.0,car,tensor([0.8570]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+75.0,car,tensor([0.8059]),"tensor([4], dtype=torch.int32)",194,169,215,206,False,0,0,0,0,
+75.0,car,tensor([0.7665]),"tensor([5], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+75.0,person,tensor([0.7138]),"tensor([6], dtype=torch.int32)",148,158,174,245,False,0,0,0,0,
+75.0,car,tensor([0.6532]),"tensor([7], dtype=torch.int32)",236,168,272,198,False,0,0,0,0,
+75.0,license plate,tensor([0.3890]),-1,624,231,662,243,True,624,231,662,243,not detected
+75.0,license plate,tensor([0.1037]),-1,439,212,460,222,True,439,212,460,222,not detected
+76.0,car,tensor([0.8900]),"tensor([1], dtype=torch.int32)",468,164,670,267,False,0,0,0,0,
+76.0,car,tensor([0.8631]),"tensor([2], dtype=torch.int32)",373,174,472,236,False,0,0,0,0,
+76.0,car,tensor([0.8508]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+76.0,car,tensor([0.8025]),"tensor([4], dtype=torch.int32)",194,170,216,207,False,0,0,0,0,
+76.0,car,tensor([0.7695]),"tensor([5], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+76.0,person,tensor([0.7226]),"tensor([6], dtype=torch.int32)",148,156,174,245,False,0,0,0,0,
+76.0,car,tensor([0.6382]),"tensor([7], dtype=torch.int32)",236,168,272,199,False,0,0,0,0,
+76.0,license plate,tensor([0.3601]),-1,623,231,662,243,True,623,231,662,243,not detected
+77.0,car,tensor([0.8911]),"tensor([1], dtype=torch.int32)",469,164,670,267,False,0,0,0,0,
+77.0,car,tensor([0.8620]),"tensor([2], dtype=torch.int32)",373,174,472,236,False,0,0,0,0,
+77.0,car,tensor([0.8445]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+77.0,car,tensor([0.8062]),"tensor([4], dtype=torch.int32)",194,170,216,207,False,0,0,0,0,
+77.0,car,tensor([0.7742]),"tensor([5], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+77.0,person,tensor([0.7013]),"tensor([6], dtype=torch.int32)",148,157,174,245,False,0,0,0,0,
+77.0,car,tensor([0.6483]),"tensor([7], dtype=torch.int32)",236,168,272,199,False,0,0,0,0,
+77.0,license plate,tensor([0.3371]),-1,623,231,662,243,True,623,231,662,243,—-e
+78.0,car,tensor([0.8922]),"tensor([1], dtype=torch.int32)",469,164,670,267,False,0,0,0,0,
+78.0,car,tensor([0.8574]),"tensor([2], dtype=torch.int32)",373,174,472,237,False,0,0,0,0,
+78.0,car,tensor([0.8535]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+78.0,car,tensor([0.8141]),"tensor([4], dtype=torch.int32)",194,170,217,207,False,0,0,0,0,
+78.0,car,tensor([0.7621]),"tensor([5], dtype=torch.int32)",263,172,302,204,False,0,0,0,0,
+78.0,person,tensor([0.6883]),"tensor([6], dtype=torch.int32)",148,159,174,245,False,0,0,0,0,
+78.0,car,tensor([0.6320]),"tensor([7], dtype=torch.int32)",236,168,272,199,False,0,0,0,0,
+78.0,license plate,tensor([0.3269]),-1,623,231,663,243,True,623,231,663,243,not detected
+79.0,car,tensor([0.8925]),"tensor([1], dtype=torch.int32)",468,164,670,267,False,0,0,0,0,
+79.0,car,tensor([0.8602]),"tensor([2], dtype=torch.int32)",373,174,472,237,False,0,0,0,0,
+79.0,car,tensor([0.8580]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+79.0,car,tensor([0.8094]),"tensor([4], dtype=torch.int32)",194,170,219,208,False,0,0,0,0,
+79.0,car,tensor([0.7564]),"tensor([5], dtype=torch.int32)",264,172,302,204,False,0,0,0,0,
+79.0,person,tensor([0.7090]),"tensor([6], dtype=torch.int32)",148,159,174,245,False,0,0,0,0,
+79.0,car,tensor([0.6309]),"tensor([7], dtype=torch.int32)",236,168,272,199,False,0,0,0,0,
+79.0,license plate,tensor([0.3044]),-1,624,231,663,243,True,624,231,663,243,not detected
+80.0,car,tensor([0.8921]),"tensor([1], dtype=torch.int32)",469,164,670,267,False,0,0,0,0,
+80.0,car,tensor([0.8606]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+80.0,car,tensor([0.8526]),"tensor([3], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+80.0,car,tensor([0.7969]),"tensor([4], dtype=torch.int32)",194,171,220,209,False,0,0,0,0,
+80.0,car,tensor([0.7554]),"tensor([5], dtype=torch.int32)",264,172,302,205,False,0,0,0,0,
+80.0,person,tensor([0.7214]),"tensor([6], dtype=torch.int32)",148,159,174,245,False,0,0,0,0,
+80.0,car,tensor([0.6373]),"tensor([7], dtype=torch.int32)",236,168,273,199,False,0,0,0,0,
+80.0,license plate,tensor([0.3139]),-1,624,232,663,243,True,624,232,663,243,not detected
+80.0,license plate,tensor([0.1036]),-1,439,212,460,222,True,439,212,460,222,a
+81.0,car,tensor([0.8892]),"tensor([1], dtype=torch.int32)",468,164,670,267,False,0,0,0,0,
+81.0,car,tensor([0.8581]),"tensor([2], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+81.0,car,tensor([0.8530]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+81.0,car,tensor([0.7495]),"tensor([4], dtype=torch.int32)",264,172,303,205,False,0,0,0,0,
+81.0,car,tensor([0.7268]),"tensor([5], dtype=torch.int32)",195,172,221,210,False,0,0,0,0,
+81.0,person,tensor([0.7113]),"tensor([6], dtype=torch.int32)",148,160,175,245,False,0,0,0,0,
+81.0,car,tensor([0.6521]),"tensor([7], dtype=torch.int32)",236,168,274,199,False,0,0,0,0,
+81.0,license plate,tensor([0.3408]),-1,624,232,663,243,True,624,232,663,243,not detected
+81.0,license plate,tensor([0.1081]),-1,439,212,460,222,True,439,212,460,222,not detected
+82.0,car,tensor([0.8832]),"tensor([1], dtype=torch.int32)",468,164,670,267,False,0,0,0,0,
+82.0,car,tensor([0.8549]),"tensor([2], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+82.0,car,tensor([0.8496]),"tensor([3], dtype=torch.int32)",374,174,471,237,False,0,0,0,0,
+82.0,car,tensor([0.7491]),"tensor([4], dtype=torch.int32)",264,172,303,205,False,0,0,0,0,
+82.0,car,tensor([0.7413]),"tensor([5], dtype=torch.int32)",195,172,222,210,False,0,0,0,0,
+82.0,person,tensor([0.6713]),"tensor([6], dtype=torch.int32)",148,159,174,245,False,0,0,0,0,
+82.0,car,tensor([0.6405]),"tensor([7], dtype=torch.int32)",236,168,274,199,False,0,0,0,0,
+82.0,license plate,tensor([0.3275]),-1,624,232,663,243,True,624,232,663,243,not detected
+83.0,car,tensor([0.8829]),"tensor([1], dtype=torch.int32)",468,164,671,267,False,0,0,0,0,
+83.0,car,tensor([0.8582]),"tensor([2], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+83.0,car,tensor([0.8464]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+83.0,car,tensor([0.7384]),"tensor([4], dtype=torch.int32)",195,172,224,211,False,0,0,0,0,
+83.0,car,tensor([0.7337]),"tensor([5], dtype=torch.int32)",264,172,303,205,False,0,0,0,0,
+83.0,person,tensor([0.6739]),"tensor([6], dtype=torch.int32)",148,158,174,244,False,0,0,0,0,
+83.0,car,tensor([0.6290]),"tensor([7], dtype=torch.int32)",236,168,275,199,False,0,0,0,0,
+83.0,license plate,tensor([0.3263]),-1,627,233,663,244,True,627,233,663,244,a
+83.0,license plate,tensor([0.1051]),-1,439,212,461,222,True,439,212,461,222,not detected
+84.0,car,tensor([0.8848]),"tensor([1], dtype=torch.int32)",469,164,671,267,False,0,0,0,0,
+84.0,car,tensor([0.8601]),"tensor([2], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+84.0,car,tensor([0.8493]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+84.0,car,tensor([0.7389]),"tensor([4], dtype=torch.int32)",264,172,303,205,False,0,0,0,0,
+84.0,car,tensor([0.7385]),"tensor([5], dtype=torch.int32)",195,171,225,211,False,0,0,0,0,
+84.0,person,tensor([0.7365]),"tensor([6], dtype=torch.int32)",148,158,175,244,False,0,0,0,0,
+84.0,car,tensor([0.6156]),"tensor([7], dtype=torch.int32)",236,168,274,199,False,0,0,0,0,
+84.0,license plate,tensor([0.3416]),-1,627,233,663,244,True,627,233,663,244,not detected
+85.0,car,tensor([0.8813]),"tensor([1], dtype=torch.int32)",469,164,671,267,False,0,0,0,0,
+85.0,car,tensor([0.8550]),"tensor([2], dtype=torch.int32)",317,173,384,223,False,0,0,0,0,
+85.0,car,tensor([0.8429]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+85.0,car,tensor([0.7456]),"tensor([4], dtype=torch.int32)",265,172,303,205,False,0,0,0,0,
+85.0,person,tensor([0.7423]),"tensor([5], dtype=torch.int32)",148,158,175,244,False,0,0,0,0,
+85.0,car,tensor([0.7225]),"tensor([6], dtype=torch.int32)",195,171,226,212,False,0,0,0,0,
+85.0,car,tensor([0.6073]),"tensor([7], dtype=torch.int32)",236,168,275,199,False,0,0,0,0,
+85.0,license plate,tensor([0.4082]),-1,628,233,663,244,True,628,233,663,244,not detected
+86.0,car,tensor([0.8838]),"tensor([1], dtype=torch.int32)",469,164,671,267,False,0,0,0,0,
+86.0,car,tensor([0.8613]),"tensor([2], dtype=torch.int32)",317,173,385,223,False,0,0,0,0,
+86.0,car,tensor([0.8404]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+86.0,person,tensor([0.7441]),"tensor([4], dtype=torch.int32)",148,157,175,244,False,0,0,0,0,
+86.0,car,tensor([0.7430]),"tensor([5], dtype=torch.int32)",265,172,303,205,False,0,0,0,0,
+86.0,car,tensor([0.7100]),"tensor([6], dtype=torch.int32)",194,171,228,212,False,0,0,0,0,
+86.0,car,tensor([0.6003]),"tensor([7], dtype=torch.int32)",236,167,275,199,False,0,0,0,0,
+86.0,license plate,tensor([0.5361]),-1,627,233,663,243,True,627,233,663,243,a
+86.0,license plate,tensor([0.1312]),-1,439,212,461,222,True,439,212,461,222,not detected
+87.0,car,tensor([0.8844]),"tensor([1], dtype=torch.int32)",469,164,671,267,False,0,0,0,0,
+87.0,car,tensor([0.8653]),"tensor([2], dtype=torch.int32)",317,173,385,223,False,0,0,0,0,
+87.0,car,tensor([0.8448]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+87.0,person,tensor([0.7591]),"tensor([4], dtype=torch.int32)",148,156,175,243,False,0,0,0,0,
+87.0,car,tensor([0.7470]),"tensor([5], dtype=torch.int32)",195,172,230,213,False,0,0,0,0,
+87.0,car,tensor([0.7412]),"tensor([6], dtype=torch.int32)",266,172,303,205,False,0,0,0,0,
+87.0,license plate,tensor([0.5301]),-1,628,233,663,243,True,628,233,663,243,not detected
+88.0,car,tensor([0.8825]),"tensor([1], dtype=torch.int32)",469,164,671,267,False,0,0,0,0,
+88.0,car,tensor([0.8687]),"tensor([2], dtype=torch.int32)",317,173,385,223,False,0,0,0,0,
+88.0,car,tensor([0.8411]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+88.0,car,tensor([0.7597]),"tensor([4], dtype=torch.int32)",195,172,232,213,False,0,0,0,0,
+88.0,person,tensor([0.7518]),"tensor([5], dtype=torch.int32)",148,156,176,243,False,0,0,0,0,
+88.0,car,tensor([0.7290]),"tensor([6], dtype=torch.int32)",265,172,303,205,False,0,0,0,0,
+88.0,license plate,tensor([0.4982]),-1,628,233,663,243,True,628,233,663,243,not detected
+89.0,car,tensor([0.8798]),"tensor([1], dtype=torch.int32)",470,164,671,267,False,0,0,0,0,
+89.0,car,tensor([0.8643]),"tensor([2], dtype=torch.int32)",316,173,385,223,False,0,0,0,0,
+89.0,car,tensor([0.8445]),"tensor([3], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+89.0,car,tensor([0.7763]),"tensor([4], dtype=torch.int32)",195,171,233,213,False,0,0,0,0,
+89.0,person,tensor([0.7633]),"tensor([5], dtype=torch.int32)",147,155,176,243,False,0,0,0,0,
+89.0,car,tensor([0.7104]),"tensor([6], dtype=torch.int32)",266,173,303,205,False,0,0,0,0,
+89.0,license plate,tensor([0.4834]),-1,628,233,663,243,True,628,233,663,243,not detected
+90.0,car,tensor([0.8982]),"tensor([1], dtype=torch.int32)",470,164,672,266,False,0,0,0,0,
+90.0,car,tensor([0.8614]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+90.0,car,tensor([0.8521]),"tensor([3], dtype=torch.int32)",316,173,385,222,False,0,0,0,0,
+90.0,car,tensor([0.8117]),"tensor([4], dtype=torch.int32)",196,170,234,214,False,0,0,0,0,
+90.0,person,tensor([0.7944]),"tensor([5], dtype=torch.int32)",147,155,176,242,False,0,0,0,0,
+90.0,car,tensor([0.6297]),"tensor([6], dtype=torch.int32)",265,172,302,205,False,0,0,0,0,
+90.0,license plate,tensor([0.7311]),"tensor([1], dtype=torch.int32)",628,233,662,243,True,628,233,662,243,not detected
+91.0,car,tensor([0.8969]),"tensor([1], dtype=torch.int32)",470,164,672,266,False,0,0,0,0,
+91.0,car,tensor([0.8617]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+91.0,car,tensor([0.8592]),"tensor([3], dtype=torch.int32)",317,173,385,222,False,0,0,0,0,
+91.0,car,tensor([0.8226]),"tensor([4], dtype=torch.int32)",196,170,236,214,False,0,0,0,0,
+91.0,person,tensor([0.7871]),"tensor([5], dtype=torch.int32)",147,155,176,242,False,0,0,0,0,
+91.0,car,tensor([0.6232]),"tensor([6], dtype=torch.int32)",265,172,303,204,False,0,0,0,0,
+91.0,license plate,tensor([0.7519]),"tensor([1], dtype=torch.int32)",628,233,662,243,True,628,233,662,243,not detected
+92.0,car,tensor([0.8961]),"tensor([1], dtype=torch.int32)",470,163,672,266,False,0,0,0,0,
+92.0,car,tensor([0.8631]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+92.0,car,tensor([0.8555]),"tensor([3], dtype=torch.int32)",316,173,385,222,False,0,0,0,0,
+92.0,car,tensor([0.8210]),"tensor([4], dtype=torch.int32)",196,170,237,214,False,0,0,0,0,
+92.0,person,tensor([0.7837]),"tensor([5], dtype=torch.int32)",147,155,175,242,False,0,0,0,0,
+92.0,car,tensor([0.6494]),"tensor([6], dtype=torch.int32)",265,172,303,204,False,0,0,0,0,
+92.0,license plate,tensor([0.6615]),"tensor([1], dtype=torch.int32)",628,233,662,242,True,628,233,662,242,not detected
+93.0,car,tensor([0.8985]),"tensor([1], dtype=torch.int32)",470,163,672,266,False,0,0,0,0,
+93.0,car,tensor([0.8616]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+93.0,car,tensor([0.8467]),"tensor([3], dtype=torch.int32)",316,173,385,222,False,0,0,0,0,
+93.0,car,tensor([0.8044]),"tensor([4], dtype=torch.int32)",196,170,238,215,False,0,0,0,0,
+93.0,person,tensor([0.7728]),"tensor([5], dtype=torch.int32)",146,155,175,242,False,0,0,0,0,
+93.0,car,tensor([0.6522]),"tensor([6], dtype=torch.int32)",266,172,303,204,False,0,0,0,0,
+93.0,license plate,tensor([0.6577]),"tensor([1], dtype=torch.int32)",628,233,661,242,True,628,233,661,242,not detected
+94.0,car,tensor([0.8950]),"tensor([1], dtype=torch.int32)",469,163,672,266,False,0,0,0,0,
+94.0,car,tensor([0.8589]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+94.0,car,tensor([0.8446]),"tensor([3], dtype=torch.int32)",315,173,385,222,False,0,0,0,0,
+94.0,car,tensor([0.7984]),"tensor([4], dtype=torch.int32)",195,170,239,215,False,0,0,0,0,
+94.0,person,tensor([0.7461]),"tensor([5], dtype=torch.int32)",145,154,176,241,False,0,0,0,0,
+94.0,car,tensor([0.6720]),"tensor([6], dtype=torch.int32)",266,172,302,204,False,0,0,0,0,
+94.0,license plate,tensor([0.6503]),"tensor([1], dtype=torch.int32)",627,232,661,241,True,627,232,661,241,not detected
+95.0,car,tensor([0.8958]),"tensor([1], dtype=torch.int32)",469,163,672,266,False,0,0,0,0,
+95.0,car,tensor([0.8606]),"tensor([2], dtype=torch.int32)",374,174,472,237,False,0,0,0,0,
+95.0,car,tensor([0.8492]),"tensor([3], dtype=torch.int32)",315,173,385,222,False,0,0,0,0,
+95.0,car,tensor([0.7972]),"tensor([4], dtype=torch.int32)",195,170,241,216,False,0,0,0,0,
+95.0,person,tensor([0.7442]),"tensor([5], dtype=torch.int32)",145,154,175,241,False,0,0,0,0,
+95.0,car,tensor([0.6451]),"tensor([6], dtype=torch.int32)",265,172,303,204,False,0,0,0,0,
+95.0,license plate,tensor([0.6677]),"tensor([1], dtype=torch.int32)",628,232,661,241,True,628,232,661,241,a
+96.0,car,tensor([0.8968]),"tensor([1], dtype=torch.int32)",469,163,671,266,False,0,0,0,0,
+96.0,car,tensor([0.8557]),"tensor([2], dtype=torch.int32)",374,173,472,237,False,0,0,0,0,
+96.0,car,tensor([0.8480]),"tensor([3], dtype=torch.int32)",316,172,385,222,False,0,0,0,0,
+96.0,car,tensor([0.8205]),"tensor([4], dtype=torch.int32)",195,170,243,217,False,0,0,0,0,
+96.0,person,tensor([0.7441]),"tensor([5], dtype=torch.int32)",145,155,175,241,False,0,0,0,0,
+96.0,car,tensor([0.6476]),"tensor([6], dtype=torch.int32)",266,172,303,204,False,0,0,0,0,
+96.0,license plate,tensor([0.6119]),"tensor([1], dtype=torch.int32)",628,232,661,241,True,628,232,661,241,not detected
+97.0,car,tensor([0.8992]),"tensor([1], dtype=torch.int32)",470,163,671,265,False,0,0,0,0,
+97.0,car,tensor([0.8549]),"tensor([2], dtype=torch.int32)",374,173,472,237,False,0,0,0,0,
+97.0,car,tensor([0.8541]),"tensor([3], dtype=torch.int32)",317,172,385,222,False,0,0,0,0,
+97.0,car,tensor([0.8180]),"tensor([4], dtype=torch.int32)",195,170,245,218,False,0,0,0,0,
+97.0,person,tensor([0.7353]),"tensor([5], dtype=torch.int32)",145,155,175,241,False,0,0,0,0,
+97.0,car,tensor([0.6126]),"tensor([6], dtype=torch.int32)",266,172,302,204,False,0,0,0,0,
+97.0,license plate,tensor([0.5791]),-1,628,232,660,241,True,628,232,660,241,not detected
+98.0,car,tensor([0.8986]),"tensor([1], dtype=torch.int32)",469,163,671,265,False,0,0,0,0,
+98.0,car,tensor([0.8559]),"tensor([2], dtype=torch.int32)",316,172,385,222,False,0,0,0,0,
+98.0,car,tensor([0.8492]),"tensor([3], dtype=torch.int32)",374,173,472,236,False,0,0,0,0,
+98.0,car,tensor([0.8291]),"tensor([4], dtype=torch.int32)",195,170,247,218,False,0,0,0,0,
+98.0,person,tensor([0.7314]),"tensor([5], dtype=torch.int32)",145,155,174,241,False,0,0,0,0,
+98.0,car,tensor([0.6334]),"tensor([6], dtype=torch.int32)",266,171,302,203,False,0,0,0,0,
+98.0,license plate,tensor([0.6097]),"tensor([1], dtype=torch.int32)",628,232,660,241,True,628,232,660,241,a
+99.0,car,tensor([0.8929]),"tensor([1], dtype=torch.int32)",469,163,671,265,False,0,0,0,0,
+99.0,car,tensor([0.8488]),"tensor([2], dtype=torch.int32)",316,172,385,222,False,0,0,0,0,
+99.0,car,tensor([0.8480]),"tensor([3], dtype=torch.int32)",195,171,248,218,False,0,0,0,0,
+99.0,car,tensor([0.8387]),"tensor([4], dtype=torch.int32)",374,173,472,235,False,0,0,0,0,
+99.0,person,tensor([0.7145]),"tensor([5], dtype=torch.int32)",145,156,174,241,False,0,0,0,0,
+99.0,car,tensor([0.6418]),"tensor([6], dtype=torch.int32)",266,171,302,203,False,0,0,0,0,
+99.0,license plate,tensor([0.6180]),"tensor([1], dtype=torch.int32)",629,232,660,241,True,629,232,660,241,=e
+100.0,car,tensor([0.8916]),"tensor([1], dtype=torch.int32)",469,163,671,264,False,0,0,0,0,
+100.0,car,tensor([0.8533]),"tensor([2], dtype=torch.int32)",195,172,250,219,False,0,0,0,0,
+100.0,car,tensor([0.8521]),"tensor([3], dtype=torch.int32)",316,172,385,222,False,0,0,0,0,
+100.0,car,tensor([0.8413]),"tensor([4], dtype=torch.int32)",374,173,472,236,False,0,0,0,0,
+100.0,person,tensor([0.7153]),"tensor([5], dtype=torch.int32)",145,155,174,240,False,0,0,0,0,
+100.0,car,tensor([0.6508]),"tensor([6], dtype=torch.int32)",267,171,302,203,False,0,0,0,0,
+100.0,license plate,tensor([0.6441]),"tensor([1], dtype=torch.int32)",628,232,660,241,True,628,232,660,241,not detected
+101.0,car,tensor([0.8810]),"tensor([1], dtype=torch.int32)",469,162,671,264,False,0,0,0,0,
+101.0,car,tensor([0.8478]),"tensor([2], dtype=torch.int32)",195,171,252,219,False,0,0,0,0,
+101.0,car,tensor([0.8445]),"tensor([3], dtype=torch.int32)",315,171,385,222,False,0,0,0,0,
+101.0,car,tensor([0.8402]),"tensor([4], dtype=torch.int32)",374,173,472,235,False,0,0,0,0,
+101.0,person,tensor([0.7377]),"tensor([5], dtype=torch.int32)",145,154,174,240,False,0,0,0,0,
+101.0,car,tensor([0.6742]),"tensor([6], dtype=torch.int32)",267,171,302,203,False,0,0,0,0,
+101.0,license plate,tensor([0.6005]),"tensor([1], dtype=torch.int32)",628,232,661,240,True,628,232,661,240,not detected
+102.0,car,tensor([0.8966]),"tensor([1], dtype=torch.int32)",315,171,385,221,False,0,0,0,0,
+102.0,car,tensor([0.8778]),"tensor([2], dtype=torch.int32)",469,162,671,264,False,0,0,0,0,
+102.0,car,tensor([0.8534]),"tensor([3], dtype=torch.int32)",195,171,255,220,False,0,0,0,0,
+102.0,car,tensor([0.8402]),"tensor([4], dtype=torch.int32)",375,172,472,234,False,0,0,0,0,
+102.0,person,tensor([0.7608]),"tensor([5], dtype=torch.int32)",145,153,174,240,False,0,0,0,0,
+102.0,car,tensor([0.6843]),"tensor([6], dtype=torch.int32)",267,171,302,203,False,0,0,0,0,
+102.0,license plate,tensor([0.5448]),-1,628,232,661,240,True,628,232,661,240,ae
+102.0,license plate,tensor([0.4108]),-1,439,212,460,219,True,439,212,460,219,_ a
+102.0,license plate,tensor([0.1723]),-1,436,211,463,218,True,436,211,463,218,nn
+102.0,license plate,tensor([0.1263]),-1,216,200,237,206,True,216,200,237,206,not detected
+102.0,license plate,tensor([0.1140]),-1,630,226,654,233,True,630,226,654,233,e4
+103.0,car,tensor([0.9090]),"tensor([1], dtype=torch.int32)",315,170,385,222,False,0,0,0,0,
+103.0,car,tensor([0.8806]),"tensor([2], dtype=torch.int32)",469,162,671,264,False,0,0,0,0,
+103.0,car,tensor([0.8722]),"tensor([3], dtype=torch.int32)",195,171,257,220,False,0,0,0,0,
+103.0,car,tensor([0.8433]),"tensor([4], dtype=torch.int32)",375,172,472,234,False,0,0,0,0,
+103.0,person,tensor([0.7888]),"tensor([5], dtype=torch.int32)",144,153,174,239,False,0,0,0,0,
+103.0,car,tensor([0.6534]),"tensor([6], dtype=torch.int32)",267,171,303,203,False,0,0,0,0,
+103.0,license plate,tensor([0.5358]),-1,440,212,461,219,True,440,212,461,219,ne
+103.0,license plate,tensor([0.5045]),-1,628,232,661,240,True,628,232,661,240,an
+103.0,license plate,tensor([0.2162]),-1,435,210,463,218,True,435,210,463,218,not detected
+103.0,license plate,tensor([0.1926]),-1,217,200,238,207,True,217,200,238,207,not detected
+103.0,license plate,tensor([0.1178]),-1,630,226,654,233,True,630,226,654,233,LA 6
+103.0,license plate,tensor([0.1075]),-1,213,199,241,205,True,213,199,241,205,not detected
+104.0,car,tensor([0.9124]),"tensor([1], dtype=torch.int32)",315,170,385,221,False,0,0,0,0,
+104.0,car,tensor([0.8801]),"tensor([2], dtype=torch.int32)",195,171,259,221,False,0,0,0,0,
+104.0,car,tensor([0.8781]),"tensor([3], dtype=torch.int32)",469,162,671,264,False,0,0,0,0,
+104.0,car,tensor([0.8467]),"tensor([4], dtype=torch.int32)",375,172,472,234,False,0,0,0,0,
+104.0,person,tensor([0.7845]),"tensor([5], dtype=torch.int32)",144,153,174,239,False,0,0,0,0,
+104.0,car,tensor([0.6289]),"tensor([6], dtype=torch.int32)",267,171,303,203,False,0,0,0,0,
+104.0,license plate,tensor([0.5997]),-1,628,232,660,240,True,628,232,660,240,= ee
+104.0,license plate,tensor([0.5938]),-1,440,212,461,219,True,440,212,461,219,an
+104.0,license plate,tensor([0.2452]),-1,436,210,463,218,True,436,210,463,218,ae
+104.0,license plate,tensor([0.1444]),-1,218,200,239,206,True,218,200,239,206,oe
+104.0,license plate,tensor([0.1369]),-1,630,226,653,233,True,630,226,653,233,i a a
+105.0,car,tensor([0.9107]),"tensor([1], dtype=torch.int32)",315,170,385,221,False,0,0,0,0,
+105.0,car,tensor([0.8916]),"tensor([2], dtype=torch.int32)",195,171,261,222,False,0,0,0,0,
+105.0,car,tensor([0.8802]),"tensor([3], dtype=torch.int32)",469,161,671,264,False,0,0,0,0,
+105.0,car,tensor([0.8437]),"tensor([4], dtype=torch.int32)",374,172,472,234,False,0,0,0,0,
+105.0,person,tensor([0.7915]),"tensor([5], dtype=torch.int32)",144,153,174,238,False,0,0,0,0,
+105.0,car,tensor([0.6112]),"tensor([6], dtype=torch.int32)",266,171,303,203,False,0,0,0,0,
+105.0,license plate,tensor([0.6787]),"tensor([1], dtype=torch.int32)",628,231,659,240,True,628,231,659,240,a.
+106.0,car,tensor([0.9096]),"tensor([1], dtype=torch.int32)",315,170,384,221,False,0,0,0,0,
+106.0,car,tensor([0.8850]),"tensor([2], dtype=torch.int32)",469,161,671,263,False,0,0,0,0,
+106.0,car,tensor([0.8766]),"tensor([3], dtype=torch.int32)",194,171,262,223,False,0,0,0,0,
+106.0,car,tensor([0.8366]),"tensor([4], dtype=torch.int32)",375,172,472,234,False,0,0,0,0,
+106.0,person,tensor([0.7869]),"tensor([5], dtype=torch.int32)",143,153,173,238,False,0,0,0,0,
+106.0,license plate,tensor([0.7129]),"tensor([1], dtype=torch.int32)",628,231,659,239,True,628,231,659,239,wie
+107.0,car,tensor([0.8961]),"tensor([1], dtype=torch.int32)",315,170,385,220,False,0,0,0,0,
+107.0,car,tensor([0.8838]),"tensor([2], dtype=torch.int32)",469,161,671,263,False,0,0,0,0,
+107.0,car,tensor([0.8820]),"tensor([3], dtype=torch.int32)",194,170,265,224,False,0,0,0,0,
+107.0,car,tensor([0.8287]),"tensor([4], dtype=torch.int32)",375,171,472,234,False,0,0,0,0,
+107.0,person,tensor([0.7665]),"tensor([5], dtype=torch.int32)",143,153,172,238,False,0,0,0,0,
+107.0,license plate,tensor([0.7685]),"tensor([1], dtype=torch.int32)",629,230,660,239,True,629,230,660,239,i.
+108.0,car,tensor([0.9027]),"tensor([1], dtype=torch.int32)",194,170,268,225,False,0,0,0,0,
+108.0,car,tensor([0.8837]),"tensor([2], dtype=torch.int32)",469,161,670,263,False,0,0,0,0,
+108.0,car,tensor([0.8726]),"tensor([3], dtype=torch.int32)",316,170,385,220,False,0,0,0,0,
+108.0,car,tensor([0.8287]),"tensor([4], dtype=torch.int32)",374,171,472,234,False,0,0,0,0,
+108.0,person,tensor([0.7619]),"tensor([5], dtype=torch.int32)",142,153,172,237,False,0,0,0,0,
+108.0,car,tensor([0.6108]),"tensor([6], dtype=torch.int32)",286,173,325,211,False,0,0,0,0,
+108.0,license plate,tensor([0.7503]),"tensor([1], dtype=torch.int32)",629,230,662,239,True,629,230,662,239,wal
+108.0,license plate,tensor([0.6361]),"tensor([2], dtype=torch.int32)",439,211,463,218,True,439,211,463,218,aa -
+109.0,car,tensor([0.9082]),"tensor([1], dtype=torch.int32)",194,169,270,225,False,0,0,0,0,
+109.0,car,tensor([0.8882]),"tensor([2], dtype=torch.int32)",469,161,671,262,False,0,0,0,0,
+109.0,car,tensor([0.8550]),"tensor([3], dtype=torch.int32)",315,170,385,220,False,0,0,0,0,
+109.0,car,tensor([0.8391]),"tensor([4], dtype=torch.int32)",374,171,472,234,False,0,0,0,0,
+109.0,person,tensor([0.7618]),"tensor([5], dtype=torch.int32)",142,153,171,236,False,0,0,0,0,
+109.0,car,tensor([0.6146]),"tensor([6], dtype=torch.int32)",286,173,325,211,False,0,0,0,0,
+109.0,license plate,tensor([0.7675]),"tensor([1], dtype=torch.int32)",629,229,661,240,True,629,229,661,240,not detected
+109.0,license plate,tensor([0.6678]),"tensor([2], dtype=torch.int32)",439,211,464,218,True,439,211,464,218,as
+110.0,car,tensor([0.9087]),"tensor([1], dtype=torch.int32)",194,169,272,225,False,0,0,0,0,
+110.0,car,tensor([0.8946]),"tensor([2], dtype=torch.int32)",469,160,670,262,False,0,0,0,0,
+110.0,car,tensor([0.8512]),"tensor([3], dtype=torch.int32)",374,171,472,233,False,0,0,0,0,
+110.0,car,tensor([0.8479]),"tensor([4], dtype=torch.int32)",316,169,385,219,False,0,0,0,0,
+110.0,person,tensor([0.7593]),"tensor([5], dtype=torch.int32)",141,152,170,237,False,0,0,0,0,
+110.0,car,tensor([0.6130]),"tensor([6], dtype=torch.int32)",286,173,325,211,False,0,0,0,0,
+110.0,license plate,tensor([0.7468]),"tensor([1], dtype=torch.int32)",629,229,662,240,True,629,229,662,240,not detected
+110.0,license plate,tensor([0.7415]),"tensor([2], dtype=torch.int32)",438,211,464,218,True,438,211,464,218,not detected
+111.0,car,tensor([0.8965]),"tensor([1], dtype=torch.int32)",469,160,670,262,False,0,0,0,0,
+111.0,car,tensor([0.8800]),"tensor([2], dtype=torch.int32)",194,170,274,226,False,0,0,0,0,
+111.0,car,tensor([0.8606]),"tensor([3], dtype=torch.int32)",374,171,472,233,False,0,0,0,0,
+111.0,car,tensor([0.8502]),"tensor([4], dtype=torch.int32)",316,169,385,219,False,0,0,0,0,
+111.0,person,tensor([0.7516]),"tensor([5], dtype=torch.int32)",140,153,170,237,False,0,0,0,0,
+111.0,license plate,tensor([0.7844]),"tensor([1], dtype=torch.int32)",438,211,464,218,True,438,211,464,218,Twa
+111.0,license plate,tensor([0.7833]),"tensor([2], dtype=torch.int32)",628,229,661,239,True,628,229,661,239,not detected
+112.0,car,tensor([0.8997]),"tensor([1], dtype=torch.int32)",469,159,670,262,False,0,0,0,0,
+112.0,car,tensor([0.8857]),"tensor([2], dtype=torch.int32)",194,169,277,227,False,0,0,0,0,
+112.0,car,tensor([0.8659]),"tensor([3], dtype=torch.int32)",315,169,385,219,False,0,0,0,0,
+112.0,car,tensor([0.8648]),"tensor([4], dtype=torch.int32)",374,171,472,232,False,0,0,0,0,
+112.0,person,tensor([0.7394]),"tensor([5], dtype=torch.int32)",140,152,169,236,False,0,0,0,0,
+112.0,license plate,tensor([0.8040]),"tensor([1], dtype=torch.int32)",438,211,464,218,True,438,211,464,218,a
+112.0,license plate,tensor([0.7499]),"tensor([2], dtype=torch.int32)",628,228,661,239,True,628,228,661,239,not detected
+113.0,car,tensor([0.8951]),"tensor([1], dtype=torch.int32)",469,159,671,262,False,0,0,0,0,
+113.0,car,tensor([0.8823]),"tensor([2], dtype=torch.int32)",194,170,280,227,False,0,0,0,0,
+113.0,car,tensor([0.8713]),"tensor([3], dtype=torch.int32)",314,169,385,219,False,0,0,0,0,
+113.0,car,tensor([0.8610]),"tensor([4], dtype=torch.int32)",374,170,472,232,False,0,0,0,0,
+113.0,person,tensor([0.7433]),"tensor([5], dtype=torch.int32)",140,153,170,236,False,0,0,0,0,
+113.0,license plate,tensor([0.8376]),"tensor([1], dtype=torch.int32)",438,210,465,218,True,438,210,465,218,a)
+113.0,license plate,tensor([0.7264]),"tensor([2], dtype=torch.int32)",628,228,660,238,True,628,228,660,238,eae
+114.0,car,tensor([0.8966]),"tensor([1], dtype=torch.int32)",468,158,671,261,False,0,0,0,0,
+114.0,car,tensor([0.8844]),"tensor([2], dtype=torch.int32)",314,169,385,219,False,0,0,0,0,
+114.0,car,tensor([0.8738]),"tensor([3], dtype=torch.int32)",194,169,283,228,False,0,0,0,0,
+114.0,car,tensor([0.8648]),"tensor([4], dtype=torch.int32)",374,170,472,232,False,0,0,0,0,
+114.0,person,tensor([0.7524]),"tensor([5], dtype=torch.int32)",139,152,169,236,False,0,0,0,0,
+114.0,license plate,tensor([0.8282]),"tensor([1], dtype=torch.int32)",438,210,465,218,True,438,210,465,218,a -
+114.0,license plate,tensor([0.6659]),"tensor([2], dtype=torch.int32)",628,228,660,237,True,628,228,660,237,a
+115.0,car,tensor([0.8954]),"tensor([1], dtype=torch.int32)",468,158,670,261,False,0,0,0,0,
+115.0,car,tensor([0.8853]),"tensor([2], dtype=torch.int32)",195,170,286,229,False,0,0,0,0,
+115.0,car,tensor([0.8736]),"tensor([3], dtype=torch.int32)",315,169,385,218,False,0,0,0,0,
+115.0,car,tensor([0.8688]),"tensor([4], dtype=torch.int32)",374,169,472,231,False,0,0,0,0,
+115.0,person,tensor([0.7592]),"tensor([5], dtype=torch.int32)",139,153,169,235,False,0,0,0,0,
+115.0,license plate,tensor([0.8139]),"tensor([1], dtype=torch.int32)",438,210,464,217,True,438,210,464,217,7
+115.0,license plate,tensor([0.6601]),"tensor([2], dtype=torch.int32)",628,227,660,236,True,628,227,660,236,a
+116.0,car,tensor([0.8908]),"tensor([1], dtype=torch.int32)",468,157,670,261,False,0,0,0,0,
+116.0,car,tensor([0.8898]),"tensor([2], dtype=torch.int32)",197,169,287,230,False,0,0,0,0,
+116.0,car,tensor([0.8630]),"tensor([3], dtype=torch.int32)",374,169,472,231,False,0,0,0,0,
+116.0,car,tensor([0.8394]),"tensor([4], dtype=torch.int32)",317,169,384,218,False,0,0,0,0,
+116.0,person,tensor([0.7586]),"tensor([5], dtype=torch.int32)",139,152,168,235,False,0,0,0,0,
+116.0,license plate,tensor([0.7662]),"tensor([1], dtype=torch.int32)",438,209,463,216,True,438,209,463,216,se S
+116.0,license plate,tensor([0.7183]),"tensor([2], dtype=torch.int32)",628,227,661,236,True,628,227,661,236,not detected
+117.0,car,tensor([0.8828]),"tensor([1], dtype=torch.int32)",468,157,670,261,False,0,0,0,0,
+117.0,car,tensor([0.8741]),"tensor([2], dtype=torch.int32)",199,170,290,230,False,0,0,0,0,
+117.0,car,tensor([0.8707]),"tensor([3], dtype=torch.int32)",375,168,472,229,False,0,0,0,0,
+117.0,car,tensor([0.8574]),"tensor([4], dtype=torch.int32)",317,168,385,217,False,0,0,0,0,
+117.0,person,tensor([0.7579]),"tensor([5], dtype=torch.int32)",140,151,167,232,False,0,0,0,0,
+117.0,license plate,tensor([0.7339]),"tensor([1], dtype=torch.int32)",628,226,661,236,True,628,226,661,236,not detected
+117.0,license plate,tensor([0.6996]),"tensor([2], dtype=torch.int32)",439,209,462,214,True,439,209,462,214,_— + oe
+118.0,car,tensor([0.8833]),"tensor([1], dtype=torch.int32)",202,169,294,230,False,0,0,0,0,
+118.0,car,tensor([0.8818]),"tensor([2], dtype=torch.int32)",468,156,671,260,False,0,0,0,0,
+118.0,car,tensor([0.8797]),"tensor([3], dtype=torch.int32)",375,167,472,229,False,0,0,0,0,
+118.0,car,tensor([0.8545]),"tensor([4], dtype=torch.int32)",316,168,385,217,False,0,0,0,0,
+118.0,person,tensor([0.7631]),"tensor([5], dtype=torch.int32)",140,152,167,232,False,0,0,0,0,
+118.0,license plate,tensor([0.6934]),"tensor([1], dtype=torch.int32)",628,226,660,235,True,628,226,660,235,aa
+118.0,license plate,tensor([0.6124]),"tensor([2], dtype=torch.int32)",439,209,462,214,True,439,209,462,214,not detected
+119.0,car,tensor([0.8854]),"tensor([1], dtype=torch.int32)",374,166,472,228,False,0,0,0,0,
+119.0,car,tensor([0.8799]),"tensor([2], dtype=torch.int32)",467,156,672,259,False,0,0,0,0,
+119.0,car,tensor([0.8787]),"tensor([3], dtype=torch.int32)",205,168,298,231,False,0,0,0,0,
+119.0,car,tensor([0.8503]),"tensor([4], dtype=torch.int32)",316,167,384,217,False,0,0,0,0,
+119.0,person,tensor([0.7761]),"tensor([5], dtype=torch.int32)",139,151,167,231,False,0,0,0,0,
+119.0,license plate,tensor([0.6475]),"tensor([1], dtype=torch.int32)",628,226,660,235,True,628,226,660,235,ae
+119.0,license plate,tensor([0.6040]),"tensor([2], dtype=torch.int32)",439,208,462,214,True,439,208,462,214,not detected
+120.0,car,tensor([0.8925]),"tensor([1], dtype=torch.int32)",206,167,301,231,False,0,0,0,0,
+120.0,car,tensor([0.8875]),"tensor([2], dtype=torch.int32)",373,166,472,227,False,0,0,0,0,
+120.0,car,tensor([0.8782]),"tensor([3], dtype=torch.int32)",468,155,671,258,False,0,0,0,0,
+120.0,car,tensor([0.8389]),"tensor([4], dtype=torch.int32)",316,165,384,216,False,0,0,0,0,
+120.0,person,tensor([0.7739]),"tensor([5], dtype=torch.int32)",138,150,167,230,False,0,0,0,0,
+120.0,license plate,tensor([0.5482]),-1,439,206,463,213,True,439,206,463,213,nn
+120.0,license plate,tensor([0.3702]),-1,625,225,660,235,True,625,225,660,235,not detected
+120.0,license plate,tensor([0.2484]),-1,440,206,463,212,True,440,206,463,212,ee
+120.0,license plate,tensor([0.1653]),-1,629,225,654,233,True,629,225,654,233,not detected
+120.0,license plate,tensor([0.1002]),-1,436,201,462,211,True,436,201,462,211,not detected
+121.0,car,tensor([0.8988]),"tensor([1], dtype=torch.int32)",373,165,472,227,False,0,0,0,0,
+121.0,car,tensor([0.8822]),"tensor([2], dtype=torch.int32)",468,155,670,257,False,0,0,0,0,
+121.0,car,tensor([0.8562]),"tensor([3], dtype=torch.int32)",207,166,304,231,False,0,0,0,0,
+121.0,car,tensor([0.8479]),"tensor([4], dtype=torch.int32)",317,164,384,214,False,0,0,0,0,
+121.0,person,tensor([0.7882]),"tensor([5], dtype=torch.int32)",139,147,165,231,False,0,0,0,0,
+121.0,license plate,tensor([0.4414]),-1,439,206,463,213,True,439,206,463,213,not detected
+121.0,license plate,tensor([0.2373]),-1,627,223,661,234,True,627,223,661,234,not detected
+121.0,license plate,tensor([0.1729]),-1,629,225,654,233,True,629,225,654,233,not detected
+121.0,license plate,tensor([0.1207]),-1,435,201,463,212,True,435,201,463,212,as.
+122.0,car,tensor([0.9070]),"tensor([1], dtype=torch.int32)",373,164,472,226,False,0,0,0,0,
+122.0,car,tensor([0.8898]),"tensor([2], dtype=torch.int32)",316,163,384,214,False,0,0,0,0,
+122.0,car,tensor([0.8826]),"tensor([3], dtype=torch.int32)",468,154,671,256,False,0,0,0,0,
+122.0,car,tensor([0.8719]),"tensor([4], dtype=torch.int32)",209,166,308,232,False,0,0,0,0,
+122.0,person,tensor([0.8261]),"tensor([5], dtype=torch.int32)",138,145,166,228,False,0,0,0,0,
+122.0,license plate,tensor([0.3006]),-1,627,222,662,232,True,627,222,662,232,not detected
+122.0,license plate,tensor([0.1801]),-1,439,205,463,212,True,439,205,463,212,co
+123.0,car,tensor([0.9175]),"tensor([1], dtype=torch.int32)",315,162,384,213,False,0,0,0,0,
+123.0,car,tensor([0.9048]),"tensor([2], dtype=torch.int32)",373,163,473,225,False,0,0,0,0,
+123.0,car,tensor([0.8907]),"tensor([3], dtype=torch.int32)",468,153,670,255,False,0,0,0,0,
+123.0,car,tensor([0.8795]),"tensor([4], dtype=torch.int32)",211,164,311,232,False,0,0,0,0,
+123.0,person,tensor([0.8193]),"tensor([5], dtype=torch.int32)",137,144,166,227,False,0,0,0,0,
+123.0,license plate,tensor([0.3655]),-1,626,222,661,230,True,626,222,661,230,not detected
+123.0,license plate,tensor([0.1358]),-1,439,204,463,212,True,439,204,463,212,i=
+124.0,car,tensor([0.9018]),"tensor([1], dtype=torch.int32)",316,161,384,212,False,0,0,0,0,
+124.0,car,tensor([0.8951]),"tensor([2], dtype=torch.int32)",373,162,473,225,False,0,0,0,0,
+124.0,car,tensor([0.8892]),"tensor([3], dtype=torch.int32)",468,152,670,254,False,0,0,0,0,
+124.0,car,tensor([0.8878]),"tensor([4], dtype=torch.int32)",213,163,316,232,False,0,0,0,0,
+124.0,person,tensor([0.8076]),"tensor([5], dtype=torch.int32)",137,143,167,225,False,0,0,0,0,
+124.0,license plate,tensor([0.4071]),-1,625,221,660,229,True,625,221,660,229,not detected
+124.0,license plate,tensor([0.1246]),-1,439,204,463,212,True,439,204,463,212,not detected
+124.0,license plate,tensor([0.1238]),-1,267,205,296,214,True,267,205,296,214,a
+124.0,license plate,tensor([0.1082]),-1,270,206,294,212,True,270,206,294,212,ee
+125.0,car,tensor([0.8963]),"tensor([1], dtype=torch.int32)",316,160,383,211,False,0,0,0,0,
+125.0,car,tensor([0.8849]),"tensor([2], dtype=torch.int32)",215,162,319,232,False,0,0,0,0,
+125.0,car,tensor([0.8753]),"tensor([3], dtype=torch.int32)",468,151,670,253,False,0,0,0,0,
+125.0,car,tensor([0.8707]),"tensor([4], dtype=torch.int32)",373,160,472,224,False,0,0,0,0,
+125.0,person,tensor([0.7777]),"tensor([5], dtype=torch.int32)",136,141,168,224,False,0,0,0,0,
+125.0,license plate,tensor([0.7317]),"tensor([1], dtype=torch.int32)",628,219,659,229,True,628,219,659,229,page -
+126.0,car,tensor([0.8873]),"tensor([1], dtype=torch.int32)",216,161,323,233,False,0,0,0,0,
+126.0,car,tensor([0.8665]),"tensor([2], dtype=torch.int32)",467,149,670,252,False,0,0,0,0,
+126.0,car,tensor([0.8631]),"tensor([3], dtype=torch.int32)",374,159,474,223,False,0,0,0,0,
+126.0,car,tensor([0.8452]),"tensor([4], dtype=torch.int32)",316,159,384,210,False,0,0,0,0,
+126.0,person,tensor([0.7663]),"tensor([5], dtype=torch.int32)",136,139,167,223,False,0,0,0,0,
+126.0,license plate,tensor([0.7202]),"tensor([1], dtype=torch.int32)",626,218,660,228,True,626,218,660,228,not detected
+127.0,car,tensor([0.8828]),"tensor([1], dtype=torch.int32)",468,148,670,251,False,0,0,0,0,
+127.0,car,tensor([0.8713]),"tensor([2], dtype=torch.int32)",219,158,328,233,False,0,0,0,0,
+127.0,car,tensor([0.8708]),"tensor([3], dtype=torch.int32)",374,159,474,221,False,0,0,0,0,
+127.0,car,tensor([0.8369]),"tensor([4], dtype=torch.int32)",316,159,383,209,False,0,0,0,0,
+127.0,person,tensor([0.7573]),"tensor([5], dtype=torch.int32)",135,139,167,223,False,0,0,0,0,
+127.0,license plate,tensor([0.7469]),"tensor([1], dtype=torch.int32)",626,216,662,227,True,626,216,662,227,not detected
+127.0,license plate,tensor([0.6771]),"tensor([2], dtype=torch.int32)",438,200,464,206,True,438,200,464,206,Datend
+128.0,car,tensor([0.8817]),"tensor([1], dtype=torch.int32)",468,147,670,249,False,0,0,0,0,
+128.0,car,tensor([0.8737]),"tensor([2], dtype=torch.int32)",220,155,332,233,False,0,0,0,0,
+128.0,car,tensor([0.8702]),"tensor([3], dtype=torch.int32)",374,158,473,221,False,0,0,0,0,
+128.0,car,tensor([0.8149]),"tensor([4], dtype=torch.int32)",315,158,383,207,False,0,0,0,0,
+128.0,person,tensor([0.7642]),"tensor([5], dtype=torch.int32)",135,139,168,222,False,0,0,0,0,
+128.0,license plate,tensor([0.7650]),"tensor([1], dtype=torch.int32)",626,215,661,225,True,626,215,661,225,not detected
+129.0,car,tensor([0.8840]),"tensor([1], dtype=torch.int32)",468,146,670,248,False,0,0,0,0,
+129.0,car,tensor([0.8813]),"tensor([2], dtype=torch.int32)",222,154,337,234,False,0,0,0,0,
+129.0,car,tensor([0.8724]),"tensor([3], dtype=torch.int32)",374,157,472,220,False,0,0,0,0,
+129.0,car,tensor([0.8221]),"tensor([4], dtype=torch.int32)",316,157,383,206,False,0,0,0,0,
+129.0,person,tensor([0.7808]),"tensor([5], dtype=torch.int32)",135,138,168,221,False,0,0,0,0,
+129.0,license plate,tensor([0.3519]),-1,625,215,660,225,True,625,215,660,225,not detected
+129.0,license plate,tensor([0.3093]),-1,283,205,315,214,True,283,205,315,214,not detected
+129.0,license plate,tensor([0.2242]),-1,439,198,461,203,True,439,198,461,203,not detected
+129.0,license plate,tensor([0.1047]),-1,625,212,658,224,True,625,212,658,224,a
+130.0,car,tensor([0.8892]),"tensor([1], dtype=torch.int32)",468,145,669,247,False,0,0,0,0,
+130.0,car,tensor([0.8823]),"tensor([2], dtype=torch.int32)",225,155,341,235,False,0,0,0,0,
+130.0,car,tensor([0.8738]),"tensor([3], dtype=torch.int32)",374,156,472,219,False,0,0,0,0,
+130.0,car,tensor([0.7879]),"tensor([4], dtype=torch.int32)",317,156,384,205,False,0,0,0,0,
+130.0,person,tensor([0.7649]),"tensor([5], dtype=torch.int32)",135,138,168,221,False,0,0,0,0,
+130.0,license plate,tensor([0.4864]),-1,438,196,462,203,True,438,196,462,203,ie :
+130.0,license plate,tensor([0.3353]),-1,290,205,320,214,True,290,205,320,214,eee
+130.0,license plate,tensor([0.1435]),-1,625,213,663,225,True,625,213,663,225,a
+130.0,license plate,tensor([0.1347]),-1,290,205,315,212,True,290,205,315,212,ae
+131.0,car,tensor([0.8879]),"tensor([1], dtype=torch.int32)",227,155,346,236,False,0,0,0,0,
+131.0,car,tensor([0.8854]),"tensor([2], dtype=torch.int32)",468,144,669,246,False,0,0,0,0,
+131.0,car,tensor([0.8678]),"tensor([3], dtype=torch.int32)",373,155,472,218,False,0,0,0,0,
+131.0,car,tensor([0.7805]),"tensor([4], dtype=torch.int32)",318,155,382,202,False,0,0,0,0,
+131.0,person,tensor([0.7477]),"tensor([5], dtype=torch.int32)",134,138,168,219,False,0,0,0,0,
+131.0,license plate,tensor([0.4770]),-1,439,195,463,203,True,439,195,463,203,not detected
+131.0,license plate,tensor([0.2874]),-1,623,210,661,222,True,623,210,661,222,not detected
+132.0,car,tensor([0.8922]),"tensor([1], dtype=torch.int32)",228,155,351,236,False,0,0,0,0,
+132.0,car,tensor([0.8856]),"tensor([2], dtype=torch.int32)",467,143,670,245,False,0,0,0,0,
+132.0,car,tensor([0.8781]),"tensor([3], dtype=torch.int32)",372,155,471,217,False,0,0,0,0,
+132.0,car,tensor([0.7713]),"tensor([4], dtype=torch.int32)",319,155,383,200,False,0,0,0,0,
+132.0,person,tensor([0.7255]),"tensor([5], dtype=torch.int32)",134,138,168,219,False,0,0,0,0,
+132.0,license plate,tensor([0.4394]),-1,299,205,332,214,True,299,205,332,214,fg
+132.0,license plate,tensor([0.2893]),-1,438,195,463,203,True,438,195,463,203,7.
+132.0,license plate,tensor([0.2611]),-1,622,210,659,221,True,622,210,659,221,i
+133.0,car,tensor([0.8992]),"tensor([1], dtype=torch.int32)",230,153,356,237,False,0,0,0,0,
+133.0,car,tensor([0.8820]),"tensor([2], dtype=torch.int32)",468,143,669,244,False,0,0,0,0,
+133.0,car,tensor([0.8646]),"tensor([3], dtype=torch.int32)",372,153,471,216,False,0,0,0,0,
+133.0,car,tensor([0.7426]),"tensor([4], dtype=torch.int32)",319,153,383,201,False,0,0,0,0,
+133.0,person,tensor([0.6964]),"tensor([5], dtype=torch.int32)",133,137,167,217,False,0,0,0,0,
+133.0,license plate,tensor([0.3313]),-1,301,206,334,215,True,301,206,334,215,not detected
+133.0,license plate,tensor([0.2154]),-1,623,209,659,220,True,623,209,659,220,not detected
+134.0,car,tensor([0.9035]),"tensor([1], dtype=torch.int32)",232,153,362,238,False,0,0,0,0,
+134.0,car,tensor([0.8796]),"tensor([2], dtype=torch.int32)",468,141,669,243,False,0,0,0,0,
+134.0,car,tensor([0.8572]),"tensor([3], dtype=torch.int32)",372,152,471,216,False,0,0,0,0,
+134.0,person,tensor([0.7182]),"tensor([4], dtype=torch.int32)",133,136,166,217,False,0,0,0,0,
+134.0,car,tensor([0.6864]),"tensor([5], dtype=torch.int32)",321,152,383,197,False,0,0,0,0,
+134.0,license plate,tensor([0.4190]),-1,305,206,336,216,True,305,206,336,216,Zz
+134.0,license plate,tensor([0.1235]),-1,624,210,661,220,True,624,210,661,220,P<.
+135.0,car,tensor([0.8913]),"tensor([1], dtype=torch.int32)",235,153,367,239,False,0,0,0,0,
+135.0,car,tensor([0.8840]),"tensor([2], dtype=torch.int32)",467,141,668,243,False,0,0,0,0,
+135.0,car,tensor([0.8136]),"tensor([3], dtype=torch.int32)",371,152,470,215,False,0,0,0,0,
+135.0,person,tensor([0.6915]),"tensor([4], dtype=torch.int32)",133,137,163,217,False,0,0,0,0,
+135.0,license plate,tensor([0.2369]),-1,623,209,656,219,True,623,209,656,219,not detected
+135.0,license plate,tensor([0.2111]),-1,313,207,343,216,True,313,207,343,216,—=o-)
+135.0,license plate,tensor([0.1261]),-1,435,189,458,197,True,435,189,458,197,a ee
+136.0,car,tensor([0.8893]),"tensor([1], dtype=torch.int32)",467,140,668,242,False,0,0,0,0,
+136.0,car,tensor([0.8812]),"tensor([2], dtype=torch.int32)",237,154,375,240,False,0,0,0,0,
+136.0,car,tensor([0.8218]),"tensor([3], dtype=torch.int32)",373,152,469,214,False,0,0,0,0,
+136.0,person,tensor([0.6707]),"tensor([4], dtype=torch.int32)",132,139,162,216,False,0,0,0,0,
+136.0,car,tensor([0.6036]),"tensor([5], dtype=torch.int32)",235,147,273,179,False,0,0,0,0,
+136.0,license plate,tensor([0.3903]),-1,624,209,657,218,True,624,209,657,218,not detected
+136.0,license plate,tensor([0.2455]),-1,318,207,352,217,True,318,207,352,217,a
+136.0,license plate,tensor([0.2128]),-1,435,189,459,197,True,435,189,459,197,s-
+137.0,car,tensor([0.8893]),"tensor([1], dtype=torch.int32)",467,140,668,242,False,0,0,0,0,
+137.0,car,tensor([0.8888]),"tensor([2], dtype=torch.int32)",242,153,380,242,False,0,0,0,0,
+137.0,car,tensor([0.8148]),"tensor([3], dtype=torch.int32)",372,152,469,213,False,0,0,0,0,
+137.0,license plate,tensor([0.4772]),-1,627,209,660,218,True,627,209,660,218,not detected
+137.0,license plate,tensor([0.3358]),-1,324,207,358,218,True,324,207,358,218,a
+137.0,license plate,tensor([0.2421]),-1,435,189,459,197,True,435,189,459,197,=e
+138.0,car,tensor([0.8930]),"tensor([1], dtype=torch.int32)",245,152,387,246,False,0,0,0,0,
+138.0,car,tensor([0.8872]),"tensor([2], dtype=torch.int32)",467,140,668,242,False,0,0,0,0,
+138.0,car,tensor([0.7896]),"tensor([3], dtype=torch.int32)",366,152,469,213,False,0,0,0,0,
+138.0,car,tensor([0.7110]),"tensor([4], dtype=torch.int32)",235,146,272,180,False,0,0,0,0,
+138.0,person,tensor([0.6083]),"tensor([5], dtype=torch.int32)",132,139,161,214,False,0,0,0,0,
+138.0,license plate,tensor([0.5482]),-1,330,209,363,218,True,330,209,363,218,not detected
+138.0,license plate,tensor([0.4676]),-1,627,209,660,218,True,627,209,660,218,not detected
+138.0,license plate,tensor([0.2679]),-1,435,189,459,196,True,435,189,459,196,i
+139.0,car,tensor([0.9016]),"tensor([1], dtype=torch.int32)",248,153,393,247,False,0,0,0,0,
+139.0,car,tensor([0.8870]),"tensor([2], dtype=torch.int32)",467,139,668,242,False,0,0,0,0,
+139.0,car,tensor([0.7894]),"tensor([3], dtype=torch.int32)",368,151,470,213,False,0,0,0,0,
+139.0,car,tensor([0.7146]),"tensor([4], dtype=torch.int32)",235,146,273,179,False,0,0,0,0,
+139.0,person,tensor([0.6040]),"tensor([5], dtype=torch.int32)",132,140,160,213,False,0,0,0,0,
+139.0,license plate,tensor([0.5730]),-1,627,209,660,218,True,627,209,660,218,ie) aml
+139.0,license plate,tensor([0.3113]),-1,438,190,460,196,True,438,190,460,196,7
+139.0,license plate,tensor([0.3075]),-1,335,210,371,221,True,335,210,371,221,not detected
+139.0,license plate,tensor([0.1233]),-1,435,178,455,186,True,435,178,455,186,at) |
+140.0,car,tensor([0.8830]),"tensor([1], dtype=torch.int32)",467,139,668,242,False,0,0,0,0,
+140.0,car,tensor([0.8753]),"tensor([2], dtype=torch.int32)",253,153,402,250,False,0,0,0,0,
+140.0,car,tensor([0.8117]),"tensor([3], dtype=torch.int32)",373,151,470,214,False,0,0,0,0,
+140.0,car,tensor([0.7760]),"tensor([4], dtype=torch.int32)",235,146,274,179,False,0,0,0,0,
+140.0,person,tensor([0.6247]),"tensor([5], dtype=torch.int32)",132,142,160,213,False,0,0,0,0,
+140.0,license plate,tensor([0.6484]),"tensor([1], dtype=torch.int32)",340,212,378,224,True,340,212,378,224,not detected
+141.0,car,tensor([0.8858]),"tensor([1], dtype=torch.int32)",467,139,668,242,False,0,0,0,0,
+141.0,car,tensor([0.8788]),"tensor([2], dtype=torch.int32)",255,152,411,252,False,0,0,0,0,
+141.0,car,tensor([0.7867]),"tensor([3], dtype=torch.int32)",375,150,470,210,False,0,0,0,0,
+141.0,car,tensor([0.7397]),"tensor([4], dtype=torch.int32)",235,146,275,178,False,0,0,0,0,
+141.0,person,tensor([0.6049]),"tensor([5], dtype=torch.int32)",132,140,160,212,False,0,0,0,0,
+141.0,license plate,tensor([0.6585]),"tensor([1], dtype=torch.int32)",626,208,660,218,True,626,208,660,218,ae =
+142.0,car,tensor([0.8869]),"tensor([1], dtype=torch.int32)",466,139,668,242,False,0,0,0,0,
+142.0,car,tensor([0.8729]),"tensor([2], dtype=torch.int32)",259,152,419,254,False,0,0,0,0,
+142.0,car,tensor([0.7976]),"tensor([3], dtype=torch.int32)",377,150,470,212,False,0,0,0,0,
+142.0,car,tensor([0.7345]),"tensor([4], dtype=torch.int32)",235,146,273,178,False,0,0,0,0,
+142.0,person,tensor([0.6197]),"tensor([5], dtype=torch.int32)",131,141,160,213,False,0,0,0,0,
+142.0,license plate,tensor([0.7308]),"tensor([1], dtype=torch.int32)",354,215,393,229,True,354,215,393,229,not detected
+142.0,license plate,tensor([0.6610]),"tensor([2], dtype=torch.int32)",626,209,660,218,True,626,209,660,218,= —_e
+143.0,car,tensor([0.9018]),"tensor([1], dtype=torch.int32)",263,150,428,256,False,0,0,0,0,
+143.0,car,tensor([0.8797]),"tensor([2], dtype=torch.int32)",466,139,668,241,False,0,0,0,0,
+143.0,car,tensor([0.7567]),"tensor([3], dtype=torch.int32)",375,150,470,209,False,0,0,0,0,
+143.0,car,tensor([0.7039]),"tensor([4], dtype=torch.int32)",235,145,272,177,False,0,0,0,0,
+143.0,person,tensor([0.6836]),"tensor([5], dtype=torch.int32)",131,136,160,211,False,0,0,0,0,
+143.0,car,tensor([0.6116]),"tensor([6], dtype=torch.int32)",234,147,301,178,False,0,0,0,0,
+143.0,license plate,tensor([0.8103]),"tensor([1], dtype=torch.int32)",363,216,402,231,True,363,216,402,231,sz
+143.0,license plate,tensor([0.6250]),"tensor([2], dtype=torch.int32)",625,208,660,218,True,625,208,660,218,a --
+144.0,car,tensor([0.9158]),"tensor([1], dtype=torch.int32)",267,149,436,258,False,0,0,0,0,
+144.0,car,tensor([0.8794]),"tensor([2], dtype=torch.int32)",467,139,668,241,False,0,0,0,0,
+144.0,car,tensor([0.7579]),"tensor([3], dtype=torch.int32)",383,150,470,210,False,0,0,0,0,
+144.0,car,tensor([0.7109]),"tensor([4], dtype=torch.int32)",234,148,302,179,False,0,0,0,0,
+144.0,car,tensor([0.6870]),"tensor([5], dtype=torch.int32)",235,145,272,176,False,0,0,0,0,
+144.0,car,tensor([0.6375]),"tensor([6], dtype=torch.int32)",235,145,290,177,False,0,0,0,0,
+144.0,license plate,tensor([0.6220]),"tensor([1], dtype=torch.int32)",625,208,661,218,True,625,208,661,218,oo oe
+145.0,car,tensor([0.9101]),"tensor([1], dtype=torch.int32)",272,150,446,260,False,0,0,0,0,
+145.0,car,tensor([0.8796]),"tensor([2], dtype=torch.int32)",467,138,668,240,False,0,0,0,0,
+145.0,car,tensor([0.7336]),"tensor([3], dtype=torch.int32)",235,144,271,175,False,0,0,0,0,
+145.0,car,tensor([0.7144]),"tensor([4], dtype=torch.int32)",384,148,470,210,False,0,0,0,0,
+145.0,car,tensor([0.7027]),"tensor([5], dtype=torch.int32)",261,149,302,179,False,0,0,0,0,
+145.0,license plate,tensor([0.6645]),"tensor([1], dtype=torch.int32)",380,220,421,232,True,380,220,421,232,not detected
+146.0,car,tensor([0.9037]),"tensor([1], dtype=torch.int32)",276,151,458,264,False,0,0,0,0,
+146.0,car,tensor([0.8886]),"tensor([2], dtype=torch.int32)",467,137,669,240,False,0,0,0,0,
+146.0,car,tensor([0.7814]),"tensor([3], dtype=torch.int32)",263,150,304,181,False,0,0,0,0,
+146.0,car,tensor([0.7631]),"tensor([4], dtype=torch.int32)",387,148,470,208,False,0,0,0,0,
+146.0,car,tensor([0.7612]),"tensor([5], dtype=torch.int32)",235,143,271,175,False,0,0,0,0,
+146.0,license plate,tensor([0.5824]),-1,625,206,663,216,True,625,206,663,216,a
+146.0,license plate,tensor([0.3731]),-1,392,222,431,234,True,392,222,431,234,not detected
+146.0,license plate,tensor([0.1339]),-1,395,225,421,233,True,395,225,421,233,OO
+147.0,car,tensor([0.9061]),"tensor([1], dtype=torch.int32)",281,149,470,267,False,0,0,0,0,
+147.0,car,tensor([0.9031]),"tensor([2], dtype=torch.int32)",465,137,669,240,False,0,0,0,0,
+147.0,car,tensor([0.7839]),"tensor([3], dtype=torch.int32)",264,149,304,182,False,0,0,0,0,
+147.0,car,tensor([0.7723]),"tensor([4], dtype=torch.int32)",236,142,273,175,False,0,0,0,0,
+147.0,car,tensor([0.6365]),"tensor([5], dtype=torch.int32)",390,147,470,199,False,0,0,0,0,
+147.0,license plate,tensor([0.7411]),"tensor([1], dtype=torch.int32)",625,205,662,216,True,625,205,662,216,not detected
+147.0,license plate,tensor([0.7220]),"tensor([2], dtype=torch.int32)",400,225,441,238,True,400,225,441,238,ee
+148.0,car,tensor([0.9114]),"tensor([1], dtype=torch.int32)",467,137,669,240,False,0,0,0,0,
+148.0,car,tensor([0.9025]),"tensor([2], dtype=torch.int32)",286,148,482,272,False,0,0,0,0,
+148.0,car,tensor([0.7647]),"tensor([3], dtype=torch.int32)",263,149,304,182,False,0,0,0,0,
+148.0,car,tensor([0.7632]),"tensor([4], dtype=torch.int32)",236,142,274,174,False,0,0,0,0,
+148.0,license plate,tensor([0.8141]),"tensor([1], dtype=torch.int32)",626,205,663,215,True,626,205,663,215,not detected
+148.0,license plate,tensor([0.7804]),"tensor([2], dtype=torch.int32)",409,226,455,243,True,409,226,455,243,z
+149.0,car,tensor([0.9259]),"tensor([1], dtype=torch.int32)",291,147,497,277,False,0,0,0,0,
+149.0,car,tensor([0.8973]),"tensor([2], dtype=torch.int32)",468,136,670,238,False,0,0,0,0,
+149.0,car,tensor([0.7342]),"tensor([3], dtype=torch.int32)",236,141,276,174,False,0,0,0,0,
+149.0,car,tensor([0.6754]),"tensor([4], dtype=torch.int32)",263,148,304,181,False,0,0,0,0,
+149.0,license plate,tensor([0.7376]),"tensor([1], dtype=torch.int32)",422,228,465,242,True,422,228,465,242,zz
+150.0,car,tensor([0.9041]),"tensor([1], dtype=torch.int32)",297,144,511,279,False,0,0,0,0,
+150.0,car,tensor([0.8684]),"tensor([2], dtype=torch.int32)",470,134,672,237,False,0,0,0,0,
+150.0,car,tensor([0.7305]),"tensor([3], dtype=torch.int32)",237,141,274,172,False,0,0,0,0,
+150.0,license plate,tensor([0.8880]),"tensor([1], dtype=torch.int32)",435,230,481,245,True,435,230,481,245,not detected
+151.0,car,tensor([0.9192]),"tensor([1], dtype=torch.int32)",303,144,526,282,False,0,0,0,0,
+151.0,car,tensor([0.8822]),"tensor([2], dtype=torch.int32)",470,133,673,236,False,0,0,0,0,
+151.0,car,tensor([0.7142]),"tensor([3], dtype=torch.int32)",237,140,274,171,False,0,0,0,0,
+151.0,person,tensor([0.6077]),"tensor([4], dtype=torch.int32)",134,130,163,206,False,0,0,0,0,
+151.0,license plate,tensor([0.6491]),"tensor([1], dtype=torch.int32)",448,232,499,247,True,448,232,499,247,not detected
+152.0,car,tensor([0.9306]),"tensor([1], dtype=torch.int32)",311,144,541,286,False,0,0,0,0,
+152.0,car,tensor([0.8919]),"tensor([2], dtype=torch.int32)",472,132,673,234,False,0,0,0,0,
+152.0,person,tensor([0.6279]),"tensor([3], dtype=torch.int32)",135,129,162,204,False,0,0,0,0,
+152.0,license plate,tensor([0.6232]),"tensor([1], dtype=torch.int32)",463,234,511,251,True,463,234,511,251,not detected
+153.0,car,tensor([0.9103]),"tensor([1], dtype=torch.int32)",317,141,562,289,False,0,0,0,0,
+153.0,car,tensor([0.8922]),"tensor([2], dtype=torch.int32)",479,129,674,231,False,0,0,0,0,
+153.0,person,tensor([0.6957]),"tensor([3], dtype=torch.int32)",136,125,166,201,False,0,0,0,0,
+153.0,license plate,tensor([0.8293]),"tensor([1], dtype=torch.int32)",478,235,534,253,True,478,235,534,253,not detected
+153.0,license plate,tensor([0.6573]),"tensor([2], dtype=torch.int32)",629,198,665,207,True,629,198,665,207,ea
+154.0,car,tensor([0.9091]),"tensor([1], dtype=torch.int32)",322,140,581,293,False,0,0,0,0,
+154.0,car,tensor([0.8831]),"tensor([2], dtype=torch.int32)",480,126,675,228,False,0,0,0,0,
+154.0,person,tensor([0.7494]),"tensor([3], dtype=torch.int32)",137,124,165,200,False,0,0,0,0,
+154.0,license plate,tensor([0.6074]),"tensor([1], dtype=torch.int32)",496,237,551,255,True,496,237,551,255,not detected
+155.0,car,tensor([0.9071]),"tensor([1], dtype=torch.int32)",332,135,601,297,False,0,0,0,0,
+155.0,car,tensor([0.8702]),"tensor([2], dtype=torch.int32)",484,123,675,225,False,0,0,0,0,
+155.0,person,tensor([0.7401]),"tensor([3], dtype=torch.int32)",138,119,167,196,False,0,0,0,0,
+155.0,car,tensor([0.6435]),"tensor([4], dtype=torch.int32)",239,132,281,164,False,0,0,0,0,
+155.0,license plate,tensor([0.7194]),"tensor([1], dtype=torch.int32)",515,240,572,258,True,515,240,572,258,not detected
+156.0,car,tensor([0.9024]),"tensor([1], dtype=torch.int32)",340,132,627,302,False,0,0,0,0,
+156.0,car,tensor([0.8475]),"tensor([2], dtype=torch.int32)",487,119,677,220,False,0,0,0,0,
+156.0,car,tensor([0.7855]),"tensor([3], dtype=torch.int32)",321,131,388,180,False,0,0,0,0,
+156.0,person,tensor([0.7772]),"tensor([4], dtype=torch.int32)",138,118,168,193,False,0,0,0,0,
+156.0,license plate,tensor([0.7109]),"tensor([1], dtype=torch.int32)",538,241,595,260,True,538,241,595,260,not detected
+157.0,car,tensor([0.9282]),"tensor([1], dtype=torch.int32)",349,128,651,303,False,0,0,0,0,
+157.0,car,tensor([0.8657]),"tensor([2], dtype=torch.int32)",320,127,390,179,False,0,0,0,0,
+157.0,car,tensor([0.8614]),"tensor([3], dtype=torch.int32)",488,113,676,214,False,0,0,0,0,
+157.0,person,tensor([0.7547]),"tensor([4], dtype=torch.int32)",140,113,168,190,False,0,0,0,0,
+157.0,car,tensor([0.6071]),"tensor([5], dtype=torch.int32)",285,130,331,170,False,0,0,0,0,
+157.0,car,tensor([0.6050]),"tensor([6], dtype=torch.int32)",242,124,282,157,False,0,0,0,0,
+157.0,license plate,tensor([0.4987]),-1,563,242,622,263,True,563,242,622,263,a
+157.0,license plate,tensor([0.1979]),-1,635,184,670,193,True,635,184,670,193,not detected
+158.0,car,tensor([0.9243]),"tensor([1], dtype=torch.int32)",359,121,680,303,False,0,0,0,0,
+158.0,car,tensor([0.8207]),"tensor([2], dtype=torch.int32)",322,121,390,171,False,0,0,0,0,
+158.0,car,tensor([0.8143]),"tensor([3], dtype=torch.int32)",490,107,680,198,False,0,0,0,0,
+158.0,person,tensor([0.7439]),"tensor([4], dtype=torch.int32)",140,107,169,182,False,0,0,0,0,
+158.0,car,tensor([0.6642]),"tensor([5], dtype=torch.int32)",241,115,280,149,False,0,0,0,0,
+158.0,car,tensor([0.6623]),"tensor([6], dtype=torch.int32)",269,122,309,157,False,0,0,0,0,
+158.0,license plate,tensor([0.3966]),-1,590,241,650,264,True,590,241,650,264,not detected
+159.0,car,tensor([0.9164]),"tensor([1], dtype=torch.int32)",369,112,712,299,False,0,0,0,0,
+159.0,car,tensor([0.8514]),"tensor([2], dtype=torch.int32)",323,112,392,163,False,0,0,0,0,
+159.0,person,tensor([0.7806]),"tensor([3], dtype=torch.int32)",141,97,171,174,False,0,0,0,0,
+159.0,car,tensor([0.7371]),"tensor([4], dtype=torch.int32)",242,109,281,141,False,0,0,0,0,
+159.0,car,tensor([0.6875]),"tensor([5], dtype=torch.int32)",484,96,679,174,False,0,0,0,0,
+159.0,license plate,tensor([0.3461]),-1,620,235,683,259,True,620,235,683,259,not detected
+160.0,car,tensor([0.9104]),"tensor([1], dtype=torch.int32)",382,95,749,300,False,0,0,0,0,
+160.0,car,tensor([0.7778]),"tensor([2], dtype=torch.int32)",325,100,390,152,False,0,0,0,0,
+160.0,person,tensor([0.7588]),"tensor([3], dtype=torch.int32)",141,87,172,162,False,0,0,0,0,
+160.0,car,tensor([0.6794]),"tensor([4], dtype=torch.int32)",242,98,281,130,False,0,0,0,0,
+160.0,car,tensor([0.6182]),"tensor([5], dtype=torch.int32)",270,102,310,137,False,0,0,0,0,
+160.0,license plate,tensor([0.1531]),-1,652,231,722,255,True,652,231,722,255,not detected
+161.0,car,tensor([0.9113]),"tensor([1], dtype=torch.int32)",391,65,788,293,False,0,0,0,0,
+161.0,car,tensor([0.8364]),"tensor([2], dtype=torch.int32)",325,80,392,132,False,0,0,0,0,
+161.0,car,tensor([0.7690]),"tensor([3], dtype=torch.int32)",380,78,459,142,False,0,0,0,0,
+161.0,person,tensor([0.7540]),"tensor([4], dtype=torch.int32)",140,68,171,144,False,0,0,0,0,
+161.0,car,tensor([0.6485]),"tensor([5], dtype=torch.int32)",242,78,281,111,False,0,0,0,0,
+161.0,car,tensor([0.6211]),"tensor([6], dtype=torch.int32)",289,85,333,124,False,0,0,0,0,
+162.0,car,tensor([0.9126]),"tensor([1], dtype=torch.int32)",406,40,838,280,False,0,0,0,0,
+162.0,car,tensor([0.8180]),"tensor([2], dtype=torch.int32)",381,54,464,116,False,0,0,0,0,
+162.0,car,tensor([0.7830]),"tensor([3], dtype=torch.int32)",325,55,392,110,False,0,0,0,0,
+162.0,person,tensor([0.7364]),"tensor([4], dtype=torch.int32)",139,45,169,124,False,0,0,0,0,
+162.0,car,tensor([0.6989]),"tensor([5], dtype=torch.int32)",269,59,309,95,False,0,0,0,0,
+162.0,car,tensor([0.6854]),"tensor([6], dtype=torch.int32)",241,53,279,89,False,0,0,0,0,
+163.0,car,tensor([0.9245]),"tensor([1], dtype=torch.int32)",420,10,846,264,False,0,0,0,0,
+163.0,car,tensor([0.8240]),"tensor([2], dtype=torch.int32)",382,23,470,88,False,0,0,0,0,
+163.0,car,tensor([0.8165]),"tensor([3], dtype=torch.int32)",323,27,391,81,False,0,0,0,0,
+163.0,person,tensor([0.7310]),"tensor([4], dtype=torch.int32)",137,18,169,96,False,0,0,0,0,
+163.0,car,tensor([0.6575]),"tensor([5], dtype=torch.int32)",241,25,280,61,False,0,0,0,0,
+163.0,license plate,tensor([0.1337]),-1,790,180,848,210,True,790,180,848,210,not detected
+164.0,car,tensor([0.9363]),"tensor([1], dtype=torch.int32)",434,0,847,243,False,0,0,0,0,
+164.0,car,tensor([0.8264]),"tensor([2], dtype=torch.int32)",382,0,479,57,False,0,0,0,0,
+164.0,person,tensor([0.7301]),"tensor([3], dtype=torch.int32)",134,0,166,68,False,0,0,0,0,
+164.0,car,tensor([0.6320]),"tensor([4], dtype=torch.int32)",322,0,394,47,False,0,0,0,0,
+165.0,car,tensor([0.9333]),"tensor([1], dtype=torch.int32)",450,0,847,222,False,0,0,0,0,
+166.0,car,tensor([0.9082]),"tensor([1], dtype=torch.int32)",469,0,846,192,False,0,0,0,0,
+167.0,car,tensor([0.8845]),"tensor([1], dtype=torch.int32)",495,0,847,158,False,0,0,0,0,
+168.0,car,tensor([0.1092]),-1,582,1,847,94,False,0,0,0,0,
+178.0,person,tensor([0.3152]),-1,798,395,847,477,False,0,0,0,0,
+178.0,person,tensor([0.1206]),-1,683,394,847,475,False,0,0,0,0,
+179.0,person,tensor([0.5028]),-1,667,301,847,477,False,0,0,0,0,
+179.0,person,tensor([0.1642]),-1,778,301,847,469,False,0,0,0,0,
+180.0,person,tensor([0.9112]),"tensor([1], dtype=torch.int32)",651,218,847,474,False,0,0,0,0,
+181.0,person,tensor([0.8036]),"tensor([1], dtype=torch.int32)",639,154,847,474,False,0,0,0,0,
+182.0,person,tensor([0.7971]),"tensor([1], dtype=torch.int32)",635,105,847,471,False,0,0,0,0,
+183.0,person,tensor([0.6110]),"tensor([1], dtype=torch.int32)",633,76,847,468,False,0,0,0,0,
+184.0,person,tensor([0.8113]),"tensor([1], dtype=torch.int32)",640,58,847,472,False,0,0,0,0,
+185.0,person,tensor([0.8570]),"tensor([1], dtype=torch.int32)",647,53,847,472,False,0,0,0,0,
+186.0,person,tensor([0.7781]),"tensor([1], dtype=torch.int32)",659,48,847,471,False,0,0,0,0,
+187.0,person,tensor([0.8492]),"tensor([1], dtype=torch.int32)",666,44,847,473,False,0,0,0,0,
+188.0,person,tensor([0.8379]),"tensor([1], dtype=torch.int32)",669,43,847,474,False,0,0,0,0,
+189.0,person,tensor([0.8235]),"tensor([1], dtype=torch.int32)",677,41,847,468,False,0,0,0,0,
+190.0,person,tensor([0.8351]),"tensor([1], dtype=torch.int32)",686,43,847,466,False,0,0,0,0,
+191.0,person,tensor([0.8704]),"tensor([1], dtype=torch.int32)",696,46,847,396,False,0,0,0,0,
+192.0,person,tensor([0.8396]),"tensor([1], dtype=torch.int32)",712,46,847,292,False,0,0,0,0,
+193.0,person,tensor([0.8275]),"tensor([1], dtype=torch.int32)",727,48,847,275,False,0,0,0,0,
+194.0,person,tensor([0.6552]),"tensor([1], dtype=torch.int32)",743,184,847,272,False,0,0,0,0,
+195.0,person,tensor([0.3501]),-1,758,186,847,268,False,0,0,0,0,
+195.0,person,tensor([0.3009]),-1,758,54,847,270,False,0,0,0,0,
+196.0,person,tensor([0.5779]),-1,772,56,847,270,False,0,0,0,0,
+196.0,person,tensor([0.2657]),-1,773,189,847,269,False,0,0,0,0,
+197.0,person,tensor([0.1619]),-1,785,61,847,272,False,0,0,0,0,
+198.0,person,tensor([0.1677]),-1,795,197,847,273,False,0,0,0,0,
+201.0,person,tensor([0.2211]),-1,822,215,847,274,False,0,0,0,0,

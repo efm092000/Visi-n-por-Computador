@@ -1,5 +1,7 @@
 ## Práctica 4. Reconocimiento de matrículas
 
+## add names and other stuff from the previous readme
+
 ### Contenidos
 
 [Tarea](#41-aspectos-cubiertos)  
@@ -39,3 +41,4 @@ It doesnt really work because it counts the detection  by frames and so it count
 ## Comparation of the different detection models
 
 
+## Bibliography
