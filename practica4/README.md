@@ -47,7 +47,7 @@ As shown, we tested it on our own video as well as on the video provided by the 
 
 ## Counting People and Cars Exiting the Frame
 
-Next, we attempted to count the number of people and cars exiting the frame on the left and right sides. However, this functionality did not perform optimally, as it counted detections by frames, resulting in multiple counts of the same car and person. I tried to make the system track the movement of the detections throughout the video, but it only worked occasionally.
+Next, we attempted to count the number of people and cars in a video. However, this functionality did not perform optimally, as it counted detections by frames, resulting in multiple counts of the same car and person. I tried to make the system track the movement of the detections throughout the video, but it only worked occasionally.
 
 <video src="test-vid-count.mp4" width="320" height="240" controls>Your browser does not support the video tag.</video>
 
