@@ -31,6 +31,7 @@ First, we needed to train the model to detect license plates. For this, we colle
 
 After that, we trained the model with these images so that it could effectively detect license plates. 
 Since our laptops are not very good we used the pretrained version to enhance the outcome.
+We used 53 images to train with 50 epochs and batch size 4 because we have not that many pictures and our laptops do not have high computational power.
 
 ## Detection of People, Cars, and License Plates
 
