@@ -71,7 +71,7 @@ Furthermore, the proposed test video was too big for github, here are the links 
 
 [Link to proposed test video - blurring](https://studentsrwthaachende-my.sharepoint.com/:v:/g/personal/vuqxn68nwewtmhxs_students_rwth-aachen_de/EbwdIwCV4r9PkTs-8CNZ86kBmEeb7F-kVlBEYMGgv--3oQ?e=3f7m7K)
 
-[Link to proposed test video - counting]()
+[Link to proposed test video - counting](https://studentsrwthaachende-my.sharepoint.com/:v:/g/personal/vuqxn68nwewtmhxs_students_rwth-aachen_de/ERM_gY75duVMq7leT1ekikcB-ipt432gHTBJpvPpDfcsyg?e=Fj5ctg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 ## Bibliography
