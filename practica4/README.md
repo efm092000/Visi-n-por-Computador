@@ -75,3 +75,7 @@ Furthermore, the proposed test video was too big for github, here are the links 
 
 
 ## Bibliography
+[Documentation - Ultralytics] (https://docs.ultralytics.com/)
+[Documentation - OpenCV] (https://docs.opencv.org/)
+[Documentation - Pytesseract] (https://github.com/madmaze/pytesseract)
+[Documentation - Pandas] (https://pandas.pydata.org/docs/)
