@@ -45,6 +45,24 @@ The functionality of the model correlates to the size of the train set, which is
 
 As shown, we tested it on our own video as well as on the video provided by the instructors, which we had to upload because the file is too big for github.
 
+## Graph
+![results](https://github.com/user-attachments/assets/9fcf9735-41f6-4337-9787-c0ae543b63f4)
+**Training Losses:**
+- **train/box_loss:** Measures localization error in bounding boxes during training. It starts high at around 2.89 and gradually reduces, indicating model improvement in bounding box predictions.    
+- **train/cls_loss:** Reflects classification loss, showing a significant drop from around 10.66 to lower values as training progresses, suggesting the model learns to classify objects more accurately over time.
+- **train/dfl_loss:** This represents distribution focal loss, gradually decreasing over epochs, suggesting improved performance in distinguishing between object and background.
+    
+**Validation Losses:**
+- **val/box_loss:** A measure of bounding box error on validation data, which fluctuates but generally decreases, indicating generalization improvements.
+- **val/cls_loss:** Shows the validation classification loss, with a high start that reduces as training continues, though it remains higher than the training loss, indicating some overfitting.
+- **val/dfl_loss:** Mirrors the behavior of the train/dfl_loss, with a similar decline, indicating improved object-background differentiation in validation data.
+
+**Precision, Recall, and mAP:**
+- **metrics/precision(B) and metrics/recall(B):** Precision (starting from near 0, peaking at 1) improves as false positives decrease. Recall (maxing out at ~0.36) suggests the model’s ability to identify relevant objects improves but might need further tuning.  
+- **metrics/mAP50(B) and metrics/mAP50-95(B):** Mean Average Precision at different thresholds shows a gradual increase, indicating improved overall accuracy of object detections over epochs, though values remain moderate, hinting at room for further refinement.
+
+**Learning Rates:**
+- **lr/pg0, lr/pg1, lr/pg2:** These reflect learning rate schedules across different parameter groups, starting from 0.0002 and increasing throughout training, supporting stable learning progress without drastic rate fluctuations.
 
 ## Counting People and Cars Exiting the Frame
 
