@@ -21,6 +21,7 @@
 2. [Face Detection](#face-detection)  
 3. [Emotion Analysing](#emotion-analysing)  
 4. [Known Issues and Limitations](#Known-Issues-and-Limitations)
+5. [Video](#video)
 
 
 ## Introduction
@@ -53,7 +54,10 @@ Furthermore, the model sometimes mixes up fear and surprise due to the facial si
 
 And in general, the model’s performance can vary with lighting conditions and camera quality, affecting detection accuracy.
 
-### Gif
+## Video
+
+<video src="p5-video.mp4" width="320" height="240" controls>Your browser does not support the video tag.</video>
+
 
 
 ## Bibliography
