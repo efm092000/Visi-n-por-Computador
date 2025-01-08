@@ -18,14 +18,14 @@
 
 ## Index
 
-1. Project Overview
-2. Features
-3. Technical Implementation
-4. System Requirements
-5. Setup and Installation
-6. Usage Guide
-7. Performance Optimizations
-8. Conclusion
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Technical Implementation](#technical-implementation)
+4. [Performance Optimizations](#performance-optimizations)
+5. [System Requirements](#system-requirements)
+6. [Setup and Installation](#setup-and-installation)
+7. [Usage Guide](#usage-guide)
+8. [Conclusion](#conclusion)
 
 ## Project Overview <a name="overview"></a>
 This project implements an interactive finger painting application using computer vision techniques. 
