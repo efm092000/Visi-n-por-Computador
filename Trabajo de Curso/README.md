@@ -93,6 +93,22 @@ The drawing system's implementation relies on multiple numpy arrays serving as c
 These arrays maintain separate BACK and FRONT layers, allowing for complex compositions. The brush size calculation system dynamically adjusts based on finger positions, providing intuitive control over stroke width. 
 Real-time frame composition is achieved through OpenCV's addWeighted function, ensuring smooth visual feedback.
 
+## Performance Optimizations <a name="optimizations"></a>
+Since our hardware is not the best we were forced to apply some performance optimizations which can be adapted in the settings part in the beginning of the code.
+Therefore, the application implements several strategies to maintain smooth performance on various hardware configurations. 
+
+Frame rate control is implemented through a configurable FPS limiter, defaulting to 10 frames per second. This rate was chosen as the optimal balance between responsive interaction and processing overhead, as testing showed that higher frame rates provided diminishing returns in terms of user experience while significantly increasing CPU usage.
+
+The frame processing pipeline incorporates efficient memory management techniques. Instead of creating multiple copies of each frame, the system maintains a single reference frame and applies modifications through numpy's view mechanism. This approach significantly reduces memory allocation overhead and prevents memory fragmentation during extended drawing sessions. The application also implements periodic memory cleanup every 30 seconds, releasing unused resources and preventing memory leaks that could occur from accumulated temporary arrays and image processing artifacts.
+
+Real-time image processing optimizations include selective region updating, where only the areas affected by drawing operations are reprocessed rather than the entire frame. 
+The body segmentation mask is computed using thresholding operations optimized for speed, with an adjustable threshold value that can be tuned based on lighting conditions and hardware capabilities. 
+The drawing operations utilize numpy's vectorized operations wherever possible, avoiding slow pixel-by-pixel operations in favor of efficient array manipulations.
+
+The menu interaction system uses spatial partitioning to quickly determine if the user's hand is in a menu area, avoiding unnecessary collision detection calculations. 
+Gesture recognition includes a simple spatial and temporal filtering system that reduces jitter in hand tracking while maintaining responsiveness. 
+These optimizations work together to create a smooth, responsive drawing experience while maintaining efficient resource usage.
+
 ## System Requirements <a name="requirements"></a>
 The application requires at least Python 3.10 and a functional webcam for operation. 
 Users must have the *gesture_recognizer.task* and *pose_landmarker_full.task* model files in their project directory for proper functionality.
@@ -118,22 +134,6 @@ The T-pose saving mechanism requires proper form for reliable activation.
 Users should stand facing the camera and extend both arms horizontally at shoulder height. 
 The system verifies the pose by checking shoulder and wrist positions relative to each other, requiring both arms to be within 10% of horizontal alignment. 
 A successful T-pose hold for one second triggers the save function, storing the artwork with a timestamp-based filename for easy organization.
-
-## Performance Optimizations <a name="optimizations"></a>
-Since our hardware is not the best we were forced to apply some performance optimizations which can be adapted in the settings part in the beginning of the code.
-Therefore, the application implements several strategies to maintain smooth performance on various hardware configurations. 
-
-Frame rate control is implemented through a configurable FPS limiter, defaulting to 10 frames per second. This rate was chosen as the optimal balance between responsive interaction and processing overhead, as testing showed that higher frame rates provided diminishing returns in terms of user experience while significantly increasing CPU usage.
-
-The frame processing pipeline incorporates efficient memory management techniques. Instead of creating multiple copies of each frame, the system maintains a single reference frame and applies modifications through numpy's view mechanism. This approach significantly reduces memory allocation overhead and prevents memory fragmentation during extended drawing sessions. The application also implements periodic memory cleanup every 30 seconds, releasing unused resources and preventing memory leaks that could occur from accumulated temporary arrays and image processing artifacts.
-
-Real-time image processing optimizations include selective region updating, where only the areas affected by drawing operations are reprocessed rather than the entire frame. 
-The body segmentation mask is computed using thresholding operations optimized for speed, with an adjustable threshold value that can be tuned based on lighting conditions and hardware capabilities. 
-The drawing operations utilize numpy's vectorized operations wherever possible, avoiding slow pixel-by-pixel operations in favor of efficient array manipulations.
-
-The menu interaction system uses spatial partitioning to quickly determine if the user's hand is in a menu area, avoiding unnecessary collision detection calculations. 
-Gesture recognition includes a simple spatial and temporal filtering system that reduces jitter in hand tracking while maintaining responsiveness. 
-These optimizations work together to create a smooth, responsive drawing experience while maintaining efficient resource usage.
 
 ## Conclusion <a name="conclusion"></a>
 This project demonstrates the practical application of computer vision techniques in creating an interactive drawing application. 
