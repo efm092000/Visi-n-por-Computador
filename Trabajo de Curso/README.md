@@ -45,6 +45,7 @@ For example, the *detect_dominant_hand()* function stores the handedness informa
 This adaptation ensures that both left-handed and right-handed users (approximately 10-12% of the global population) can use the application with equal comfort and precision, without the ergonomic challenges often present in traditional digital art tools that primarily cater to right-handed users.
 
 ![show hands](show-hand.png)
+
 The image depicts the request to show the dominant hand.
 
 ### Color Selection
@@ -83,6 +84,7 @@ The gesture control system was designed to be intuitive and memorable, mapping n
 Therefore, the **Open Palm gesture** serves as a universal stop command, chosen for its distinct visual signature and natural association with "stopping" actions. 
 
 ![drawing](big-brush.png)
+
 The image shows the view of the video during drawing including the menus.
 
 ### Saving Image
