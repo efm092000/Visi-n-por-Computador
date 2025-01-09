@@ -7,12 +7,13 @@
 
 ## Technologies
   - Python
+  - Camera
 
 ## Libraries
   - OpenCV
   - Matplotlib
   - NumPy
-  - ...
+  - Math
   - Mediapipe
   - Time
 
