@@ -43,6 +43,9 @@ The system automatically adapts its gesture recognition and interface elements b
 For example, the *detect_dominant_hand()* function stores the handedness information (LEFT or RIGHT) and uses it to mirror gesture interpretations, and modify tracking sensitivity to account for the natural movement patterns of each hand. 
 This adaptation ensures that both left-handed and right-handed users (approximately 10-12% of the global population) can use the application with equal comfort and precision, without the ergonomic challenges often present in traditional digital art tools that primarily cater to right-handed users.
 
+![show hands](show-hand.png)
+The image depicts the request to show the dominant hand.
+
 ### Color Selection
 The color selection system offers four chosen primary colors: Red, Green, Blue, and Yellow. 
 These colors were selected to provide a fundamental palette that can be easily distinguished by the computer vision system while offering enough variety for basic artistic expression. 
@@ -78,11 +81,18 @@ This mirrors the natural action of erasing with a rubber eraser, making the inte
 The gesture control system was designed to be intuitive and memorable, mapping natural hand positions to common drawing actions.
 Therefore, the **Open Palm gesture** serves as a universal stop command, chosen for its distinct visual signature and natural association with "stopping" actions. 
 
+![drawing](big-brush.png)
+The image shows the view of the video during drawing including the menus.
+
 ### Saving Image
 The application includes several advanced features to enhance the user experience. 
 The T-pose detection system provides a hands-free way to save artwork, triggered when the user extends their arms horizontally. 
 This gesture was chosen for its distinctiveness and low likelihood of accidental activation. 
 In order to avoid making too many pictures at once, we implemented a cooldown of 5 seconds giving the possibility to lower the arms again.
+
+![save image](drawing-1736418173.png)
+
+The image shows the saved frame without menu, minor inaccuracies occur due to delay because of my weak hardware.
 
 
 ## Technical Implementation <a name="implementation"></a>
@@ -134,6 +144,11 @@ The T-pose saving mechanism requires proper form for reliable activation.
 Users should stand facing the camera and extend both arms horizontally at shoulder height. 
 The system verifies the pose by checking shoulder and wrist positions relative to each other, requiring both arms to be within 10% of horizontal alignment. 
 A successful T-pose hold for one second triggers the save function, storing the artwork with a timestamp-based filename for easy organization.
+
+Here is a demonstration video:
+<video src="draw.webm" width="320" height="240" controls>Your browser does not support the video tag.</video>
+
+[Link to our own tracking video](draw.webm)
 
 ## Conclusion <a name="conclusion"></a>
 This project demonstrates the practical application of computer vision techniques in creating an interactive drawing application. 
