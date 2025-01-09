@@ -151,7 +151,7 @@ A successful T-pose hold for one second triggers the save function, storing the 
 Here is a demonstration video:
 <video src="draw.webm" width="320" height="240" controls>Your browser does not support the video tag.</video>
 
-[Link to our own tracking video](draw.webm)
+[Link to the demonstration video](draw.webm)
 
 ## Conclusion <a name="conclusion"></a>
 This project demonstrates the practical application of computer vision techniques in creating an interactive drawing application. 
