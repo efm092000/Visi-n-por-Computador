@@ -65,7 +65,7 @@ For example, a red dot at the tip of the index finger guides the user to the dra
 The application implements multiple drawing modes, each designed for specific artistic needs. 
 
 The **single-finger drawing mode**, activated by the Pointing Up gesture, provides precise control ideal for detailed work like outlining or fine details. 
-This mode maintains a consistent brush size of 10 pixels for predictable results. 
+This mode maintains a consistent brush size of 8 pixels for predictable results. 
 
 The **two-finger drawing mode**, triggered by the Victory gesture, introduces dynamic brush sizing based on the distance between the index and middle fingers. 
 This innovative approach allows users to naturally vary their stroke width by adjusting their finger spacing, mimicking traditional artistic tools. 
